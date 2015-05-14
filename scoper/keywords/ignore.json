@@ -1,0 +1,10 @@
+[{
+	"keyword": "new",
+	"ignore": true
+}, {
+	"keyword": "empty",
+	"ignore": true
+}, {
+	"keyword": "function",
+	"ignore": true
+}]

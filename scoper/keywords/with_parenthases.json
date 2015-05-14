@@ -1,0 +1,693 @@
+[{
+	"keyword": "super",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "length",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "add-interval",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "alias",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "asc",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "audit-enabled",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "base64-decode",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "base64-encode",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "box",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "buffer-group-id",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "buffer-group-name",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "buffer-partition-id",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "buffer-tenant-id",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "buffer-tenant-name",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "can-do",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "can-find",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "can-query",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "can-set",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "caps",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "cast",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "chr",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "codepage-convert",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "compare",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "connected",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "count-of",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "current-result-row",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "current-value",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "date",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "datetime",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "datetime-tz",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "day",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbcodepage",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbcollation",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbparam",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "db-remote-host",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbrestrictions",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbtaskid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbtype",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dbversion",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "decimal",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dec",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "decrypt",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dynamic-cast",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dynamic-current-value",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dynamic-function",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dynamic-invoke",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dynamic-next-value",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "dynamic-property",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "encode",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "encrypt",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "entry",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "etime",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "exp",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "extent",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "fill",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "first",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "first-of",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "frame-col",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "frame-line",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "frame-row",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "generate-pbe-key",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-bits",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-byte",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-byte-order",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-bytes",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-class",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-codepage",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-collation",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-collations",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-db-client",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-double",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-effective-tenant-id",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-float",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-int64",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-long",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-pointer-value",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-short",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-size",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-string",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-unsigned-long",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "get-unsigned-short",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "guid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "handle",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "hex-decode",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "hex-encode",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "index",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "int64",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "integer",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "int",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "interval",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "is-codepage-fixed",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "is-column-codepage",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "is-db-multi-tenant",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "is-lead-byte",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "iso-date",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "kblabel",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "keycode",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "keyfunction",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "keylabel",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "keyword",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "keyword-all",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "last",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "last-of",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "lc",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "ldbname",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "left-trim",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "length",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "library",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "line-counter",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "list-events",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "list-query-attrs",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "list-set-attrs",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "list-widgets",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "log",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "logical",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "lookup",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "maximum",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "md5-digest",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "member",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "message-digest",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "minimum",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "month",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "mtime",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "next-value",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "normalize",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "num-entries",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "num-results",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "os-getenv",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "page-number",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "page-size",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "pdbname",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "proversion",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "query-off-end",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "quoter",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "r-index",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "random",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "raw",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "recid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "record-length",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "rejected",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "replace",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "rgb-value",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "right-trim",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "round",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "row-state",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "rowid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "screen-lines",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "sdbname",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "search",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "seek",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "set-db-client",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "set-effective-tenant",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "setuserid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "sha1-digest",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "ssl-server-name",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "substitute",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "substring",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "tenant-id",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "tenant-name",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "tenant-name-to-id",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "timezone",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "to-rowid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "trim",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "truncate",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "type-of",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "unbox",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "userid",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "valid-event",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "valid-handle",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "valid-object",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "weekday",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "widget-handle",
+	"with_parenthases": true,
+	"function": true
+}, {
+	"keyword": "year",
+	"with_parenthases": true,
+	"function": true
+}]

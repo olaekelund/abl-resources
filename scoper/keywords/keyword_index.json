@@ -1,0 +1,1468 @@
+[{
+	"keyword": "absolute",
+	"function": true
+}, {
+	"keyword": "accum",
+	"function": true
+}, {
+	"keyword": "accumulate",
+	"statement": true
+}, {
+	"keyword": "active-form",
+	"system_reference": true
+}, {
+	"keyword": "add-interval",
+	"function": true
+}, {
+	"keyword": "aggregate",
+	"phrase": true
+}, {
+	"keyword": "alias",
+	"function": true
+}, {
+	"keyword": "ambiguous",
+	"function": true
+}, {
+	"keyword": "apply",
+	"statement": true
+}, {
+	"keyword": "asc",
+	"function": true
+}, {
+	"keyword": "assign",
+	"statement": true
+}, {
+	"keyword": "at",
+	"phrase": true
+}, {
+	"keyword": "audit-enabled",
+	"function": true
+}, {
+	"keyword": "available",
+	"function": true
+}, {
+	"keyword": "base64-decode",
+	"function": true
+}, {
+	"keyword": "base64-encode",
+	"function": true
+}, {
+	"keyword": "bell",
+	"statement": true
+}, {
+	"keyword": "box",
+	"function": true
+}, {
+	"keyword": "buffer-compare",
+	"statement": true
+}, {
+	"keyword": "buffer-copy",
+	"statement": true
+}, {
+	"keyword": "buffer-group-id",
+	"function": true
+}, {
+	"keyword": "buffer-group-name",
+	"function": true
+}, {
+	"keyword": "buffer-partition-id",
+	"function": true
+}, {
+	"keyword": "buffer-tenant-id",
+	"function": true
+}, {
+	"keyword": "buffer-tenant-name",
+	"function": true
+}, {
+	"keyword": "call",
+	"statement": true
+}, {
+	"keyword": "can-do",
+	"function": true
+}, {
+	"keyword": "can-find",
+	"function": true
+}, {
+	"keyword": "can-query",
+	"function": true
+}, {
+	"keyword": "can-set",
+	"function": true
+}, {
+	"keyword": "caps",
+	"function": true
+}, {
+	"keyword": "case",
+	"statement": true
+}, {
+	"keyword": "cast",
+	"function": true
+}, {
+	"keyword": "catch",
+	"statement": true
+}, {
+	"keyword": "choose",
+	"statement": true
+}, {
+	"keyword": "chr",
+	"function": true
+}, {
+	"keyword": "class",
+	"statement": true
+}, {
+	"keyword": "clear",
+	"statement": true
+}, {
+	"keyword": "close query",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "close stored-procedure",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "codepage-convert",
+	"function": true
+}, {
+	"keyword": "color",
+	"phrase": true
+}, {
+	"keyword": "color",
+	"statement": true
+}, {
+	"keyword": "combo-box",
+	"phrase": true
+}, {
+	"keyword": "compare",
+	"function": true
+}, {
+	"keyword": "compile",
+	"statement": true
+}, {
+	"keyword": "connect",
+	"statement": true
+}, {
+	"keyword": "connected",
+	"function": true
+}, {
+	"keyword": "constructor",
+	"statement": true
+}, {
+	"keyword": "copy-lob",
+	"statement": true
+}, {
+	"keyword": "count-of",
+	"function": true
+}, {
+	"keyword": "create",
+	"statement": true
+}, {
+	"keyword": "create alias",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create automation object",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create browse",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create buffer",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create call",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create client-principal",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create database",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create dataset",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create data-source",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create query",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create sax-attributes",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create sax-reader",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create sax-writer",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create server",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create server-socket",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create soap-header",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create soap-header-entryref",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create socket",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create temp-table",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create widget",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create widget-pool",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create x-document",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "create x-noderef",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "current-changed",
+	"function": true
+}, {
+	"keyword": "current-language",
+	"function": true
+}, {
+	"keyword": "current-language",
+	"statement": true
+}, {
+	"keyword": "current-result-row",
+	"function": true
+}, {
+	"keyword": "current-value",
+	"function": true
+}, {
+	"keyword": "current-value",
+	"statement": true
+}, {
+	"keyword": "dataservers",
+	"function": true
+}, {
+	"keyword": "data-source-modified",
+	"function": true
+}, {
+	"keyword": "date",
+	"function": true
+}, {
+	"keyword": "datetime",
+	"function": true
+}, {
+	"keyword": "datetime-tz",
+	"function": true
+}, {
+	"keyword": "day",
+	"function": true
+}, {
+	"keyword": "dbcodepage",
+	"function": true
+}, {
+	"keyword": "dbcollation",
+	"function": true
+}, {
+	"keyword": "dbname",
+	"function": true
+}, {
+	"keyword": "dbparam",
+	"function": true
+}, {
+	"keyword": "db-remote-host",
+	"function": true
+}, {
+	"keyword": "dbrestrictions",
+	"function": true
+}, {
+	"keyword": "dbtaskid",
+	"function": true
+}, {
+	"keyword": "dbtype",
+	"function": true
+}, {
+	"keyword": "dbversion",
+	"function": true
+}, {
+	"keyword": "dde advise",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "dde execute",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "dde get",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "dde initiate",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "dde request",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "dde send",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "dde terminate",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "decimal",
+	"function": true
+}, {
+	"keyword": "decrypt",
+	"function": true
+}, {
+	"keyword": "define browse",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define buffer",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define button",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define dataset",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define data-source",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define event",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define frame",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define image",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define menu",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define parameter",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define property",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define query",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define rectangle",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define stream",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define sub-menu",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define temp-table",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define variable",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define work-table",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "define workfile",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "defined preprocessor",
+	"function": true,
+	"ignore": true
+}, {
+	"keyword": "delete",
+	"statement": true
+}, {
+	"keyword": "delete alias",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "delete object",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "delete procedure",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "delete widget",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "delete widget-pool",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "destructor",
+	"statement": true
+}, {
+	"keyword": "dictionary",
+	"statement": true
+}, {
+	"keyword": "disable",
+	"statement": true
+}, {
+	"keyword": "disable triggers",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "disconnect",
+	"statement": true
+}, {
+	"keyword": "display",
+	"statement": true
+}, {
+	"keyword": "do",
+	"statement": true
+}, {
+	"keyword": "dos",
+	"statement": true
+}, {
+	"keyword": "down",
+	"statement": true
+}, {
+	"keyword": "dynamic-cast",
+	"function": true
+}, {
+	"keyword": "dynamic-current-value",
+	"function": true
+}, {
+	"keyword": "dynamic-current-value",
+	"statement": true
+}, {
+	"keyword": "dynamic-function",
+	"function": true
+}, {
+	"keyword": "dynamic-invoke",
+	"function": true
+}, {
+	"keyword": "dynamic-new",
+	"statement": true
+}, {
+	"keyword": "dynamic-next-value",
+	"function": true
+}, {
+	"keyword": "dynamic-property",
+	"function": true
+}, {
+	"keyword": "dynamic-property",
+	"statement": true
+}, {
+	"keyword": "editing",
+	"phrase": true
+}, {
+	"keyword": "editor",
+	"phrase": true
+}, {
+	"keyword": "empty temp-table",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "enable",
+	"statement": true
+}, {
+	"keyword": "encode",
+	"function": true
+}, {
+	"keyword": "encrypt",
+	"function": true
+}, {
+	"keyword": "end",
+	"statement": true
+}, {
+	"keyword": "entered",
+	"function": true
+}, {
+	"keyword": "entry",
+	"function": true
+}, {
+	"keyword": "entry",
+	"statement": true
+}, {
+	"keyword": "error",
+	"function": true
+}, {
+	"keyword": "etime",
+	"function": true
+}, {
+	"keyword": "exp",
+	"function": true
+}, {
+	"keyword": "export",
+	"statement": true
+}, {
+	"keyword": "extent",
+	"function": true
+}, {
+	"keyword": "extent",
+	"statement": true
+}, {
+	"keyword": "fill",
+	"function": true
+}, {
+	"keyword": "finally",
+	"statement": true
+}, {
+	"keyword": "find",
+	"statement": true
+}, {
+	"keyword": "first",
+	"function": true
+}, {
+	"keyword": "first-of",
+	"function": true
+}, {
+	"keyword": "fix-codepage",
+	"statement": true
+}, {
+	"keyword": "for",
+	"statement": true
+}, {
+	"keyword": "form",
+	"statement": true
+}, {
+	"keyword": "format",
+	"phrase": true
+}, {
+	"keyword": "frame",
+	"phrase": true
+}, {
+	"keyword": "frame-col",
+	"function": true
+}, {
+	"keyword": "frame-db",
+	"function": true
+}, {
+	"keyword": "frame-down",
+	"function": true
+}, {
+	"keyword": "frame-field",
+	"function": true
+}, {
+	"keyword": "frame-file",
+	"function": true
+}, {
+	"keyword": "frame-index",
+	"function": true
+}, {
+	"keyword": "frame-line",
+	"function": true
+}, {
+	"keyword": "frame-name",
+	"function": true
+}, {
+	"keyword": "frame-row",
+	"function": true
+}, {
+	"keyword": "frame-value",
+	"function": true
+}, {
+	"keyword": "frame-value",
+	"statement": true
+}, {
+	"keyword": "function",
+	"statement": true
+}, {
+	"keyword": "gateways",
+	"function": true
+}, {
+	"keyword": "generate-pbe-key",
+	"function": true
+}, {
+	"keyword": "generate-pbe-salt",
+	"function": true
+}, {
+	"keyword": "generate-random-key",
+	"function": true
+}, {
+	"keyword": "generate-uuid",
+	"function": true
+}, {
+	"keyword": "get",
+	"statement": true
+}, {
+	"keyword": "get-bits",
+	"function": true
+}, {
+	"keyword": "get-byte",
+	"function": true
+}, {
+	"keyword": "get-byte-order",
+	"function": true
+}, {
+	"keyword": "get-bytes",
+	"function": true
+}, {
+	"keyword": "get-class",
+	"function": true
+}, {
+	"keyword": "get-codepage",
+	"function": true
+}, {
+	"keyword": "get-codepages",
+	"function": true
+}, {
+	"keyword": "get-collation",
+	"function": true
+}, {
+	"keyword": "get-collations",
+	"function": true
+}, {
+	"keyword": "get-db-client",
+	"function": true
+}, {
+	"keyword": "get-double",
+	"function": true
+}, {
+	"keyword": "get-effective-tenant-id",
+	"function": true
+}, {
+	"keyword": "get-effective-tenant-name",
+	"function": true
+}, {
+	"keyword": "get-float",
+	"function": true
+}, {
+	"keyword": "get-int64",
+	"function": true
+}, {
+	"keyword": "get-key-value",
+	"statement": true
+}, {
+	"keyword": "get-long",
+	"function": true
+}, {
+	"keyword": "get-pointer-value",
+	"function": true
+}, {
+	"keyword": "get-short",
+	"function": true
+}, {
+	"keyword": "get-size",
+	"function": true
+}, {
+	"keyword": "get-string",
+	"function": true
+}, {
+	"keyword": "get-unsigned-long",
+	"function": true
+}, {
+	"keyword": "get-unsigned-short",
+	"function": true
+}, {
+	"keyword": "go-pending",
+	"function": true
+}, {
+	"keyword": "guid",
+	"function": true
+}, {
+	"keyword": "handle",
+	"function": true
+}, {
+	"keyword": "hex-decode",
+	"function": true
+}, {
+	"keyword": "hex-encode",
+	"function": true
+}, {
+	"keyword": "hide",
+	"statement": true
+}, {
+	"keyword": "if",
+	"function": true,
+	"statement": true
+}, {
+	"keyword": "then",
+	"function": true,
+	"statement": true
+}, {
+	"keyword": "else",
+	"function": true,
+	"statement": true
+}, {
+	"keyword": "image",
+	"phrase": true
+}, {
+	"keyword": "import",
+	"statement": true
+}, {
+	"keyword": "index",
+	"function": true
+}, {
+	"keyword": "input",
+	"function": true
+}, {
+	"keyword": "input clear",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "input close",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "input from",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "input through",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "input-output close",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "input-output through",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "insert",
+	"statement": true
+}, {
+	"keyword": "int64",
+	"function": true
+}, {
+	"keyword": "integer",
+	"function": true
+}, {
+	"keyword": "interface",
+	"statement": true
+}, {
+	"keyword": "interval",
+	"function": true
+}, {
+	"keyword": "is-attr-space",
+	"function": true
+}, {
+	"keyword": "is-codepage-fixed",
+	"function": true
+}, {
+	"keyword": "is-column-codepage",
+	"function": true
+}, {
+	"keyword": "is-db-multi-tenant",
+	"function": true
+}, {
+	"keyword": "is-lead-byte",
+	"function": true
+}, {
+	"keyword": "iso-date",
+	"function": true
+}, {
+	"keyword": "kblabel",
+	"function": true
+}, {
+	"keyword": "keycode",
+	"function": true
+}, {
+	"keyword": "keyfunction",
+	"function": true
+}, {
+	"keyword": "keylabel",
+	"function": true
+}, {
+	"keyword": "keyword",
+	"function": true
+}, {
+	"keyword": "keyword-all",
+	"function": true
+}, {
+	"keyword": "last",
+	"function": true
+}, {
+	"keyword": "lastkey",
+	"function": true
+}, {
+	"keyword": "last-of",
+	"function": true
+}, {
+	"keyword": "lc",
+	"function": true
+}, {
+	"keyword": "ldbname",
+	"function": true
+}, {
+	"keyword": "leave",
+	"statement": true
+}, {
+	"keyword": "left-trim",
+	"function": true
+}, {
+	"keyword": "length",
+	"function": true
+}, {
+	"keyword": "length",
+	"statement": true
+}, {
+	"keyword": "library",
+	"function": true
+}, {
+	"keyword": "line-counter",
+	"function": true
+}, {
+	"keyword": "list-events",
+	"function": true
+}, {
+	"keyword": "list-query-attrs",
+	"function": true
+}, {
+	"keyword": "list-set-attrs",
+	"function": true
+}, {
+	"keyword": "list-widgets",
+	"function": true
+}, {
+	"keyword": "load",
+	"statement": true
+}, {
+	"keyword": "load-picture",
+	"statement": true
+}, {
+	"keyword": "locked",
+	"function": true
+}, {
+	"keyword": "log",
+	"function": true
+}, {
+	"keyword": "logical",
+	"function": true
+}, {
+	"keyword": "logical"
+}, {
+	"keyword": "lookup",
+	"function": true
+}, {
+	"keyword": "maximum",
+	"function": true
+}, {
+	"keyword": "md5-digest",
+	"function": true
+}, {
+	"keyword": "member",
+	"function": true
+}, {
+	"keyword": "message",
+	"statement": true
+}, {
+	"keyword": "message-digest",
+	"function": true
+}, {
+	"keyword": "message-lines",
+	"function": true
+}, {
+	"keyword": "method",
+	"statement": true
+}, {
+	"keyword": "minimum",
+	"function": true
+}, {
+	"keyword": "month",
+	"function": true
+}, {
+	"keyword": "mtime",
+	"function": true
+}, {
+	"keyword": "new",
+	"statement": true,
+	"function": true
+}, {
+	"keyword": "next",
+	"statement": true
+}, {
+	"keyword": "next-prompt",
+	"statement": true
+}, {
+	"keyword": "next-value",
+	"function": true
+}, {
+	"keyword": "normalize",
+	"function": true
+}, {
+	"keyword": "not entered",
+	"function": true,
+	"ignore": true
+}, {
+	"keyword": "now",
+	"function": true
+}, {
+	"keyword": "num-aliases",
+	"function": true
+}, {
+	"keyword": "num-dbs",
+	"function": true
+}, {
+	"keyword": "num-entries",
+	"function": true
+}, {
+	"keyword": "num-results",
+	"function": true
+}, {
+	"keyword": "on endkey",
+	"phrase": true,
+	"ignore": true
+}, {
+	"keyword": "on error",
+	"phrase": true,
+	"ignore": true
+}, {
+	"keyword": "on quit",
+	"phrase": true,
+	"ignore": true
+}, {
+	"keyword": "on",
+	"statement": true
+}, {
+	"keyword": "on stop",
+	"phrase": true,
+	"ignore": true
+}, {
+	"keyword": "open query",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "opsys",
+	"function": true
+}, {
+	"keyword": "os-append",
+	"statement": true
+}, {
+	"keyword": "os-command",
+	"statement": true
+}, {
+	"keyword": "os-copy",
+	"statement": true
+}, {
+	"keyword": "os-create-dir",
+	"statement": true
+}, {
+	"keyword": "os-delete",
+	"statement": true
+}, {
+	"keyword": "os-drives",
+	"function": true
+}, {
+	"keyword": "os-error",
+	"function": true
+}, {
+	"keyword": "os-getenv",
+	"function": true
+}, {
+	"keyword": "os-rename",
+	"statement": true
+}, {
+	"keyword": "output close",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "output through",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "output to",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "overlay",
+	"statement": true
+}, {
+	"keyword": "page",
+	"statement": true
+}, {
+	"keyword": "page-number",
+	"function": true
+}, {
+	"keyword": "page-size",
+	"function": true
+}, {
+	"keyword": "pause",
+	"statement": true
+}, {
+	"keyword": "pdbname",
+	"function": true
+}, {
+	"keyword": "preselect",
+	"phrase": true
+}, {
+	"keyword": "proc-handle",
+	"function": true
+}, {
+	"keyword": "proc-status",
+	"function": true
+}, {
+	"keyword": "procedure",
+	"statement": true
+}, {
+	"keyword": "process-architecture",
+	"function": true
+}, {
+	"keyword": "process events",
+	"statement": true
+}, {
+	"keyword": "program-name",
+	"function": true
+}, {
+	"keyword": "progress",
+	"function": true
+}, {
+	"keyword": "prompt-for",
+	"statement": true
+}, {
+	"keyword": "promsgs",
+	"function": true
+}, {
+	"keyword": "promsgs",
+	"statement": true
+}, {
+	"keyword": "propath",
+	"function": true
+}, {
+	"keyword": "propath",
+	"statement": true
+}, {
+	"keyword": "proversion",
+	"function": true
+}, {
+	"keyword": "publish",
+	"statement": true
+}, {
+	"keyword": "put cursor",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "put screen",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "put",
+	"statement": true
+}, {
+	"keyword": "put-bits",
+	"statement": true
+}, {
+	"keyword": "put-byte",
+	"statement": true
+}, {
+	"keyword": "put-bytes",
+	"statement": true
+}, {
+	"keyword": "put-double",
+	"statement": true
+}, {
+	"keyword": "put-float",
+	"statement": true
+}, {
+	"keyword": "put-int64",
+	"statement": true
+}, {
+	"keyword": "put-key-value",
+	"statement": true
+}, {
+	"keyword": "put-long",
+	"statement": true
+}, {
+	"keyword": "put-short",
+	"statement": true
+}, {
+	"keyword": "put-string",
+	"statement": true
+}, {
+	"keyword": "put-unsigned-long",
+	"statement": true
+}, {
+	"keyword": "put-unsigned-short",
+	"statement": true
+}, {
+	"keyword": "query-off-end",
+	"function": true
+}, {
+	"keyword": "query-tuning",
+	"phrase": true
+}, {
+	"keyword": "quit",
+	"statement": true
+}, {
+	"keyword": "quoter",
+	"function": true
+}, {
+	"keyword": "r-index",
+	"function": true
+}, {
+	"keyword": "radio-set",
+	"phrase": true
+}, {
+	"keyword": "random",
+	"function": true
+}, {
+	"keyword": "raw",
+	"function": true
+}, {
+	"keyword": "raw",
+	"statement": true
+}, {
+	"keyword": "raw-transfer",
+	"statement": true
+}, {
+	"keyword": "readkey",
+	"statement": true
+}, {
+	"keyword": "recid",
+	"function": true
+}, {
+	"keyword": "record",
+	"phrase": true
+}, {
+	"keyword": "record-length",
+	"function": true
+}, {
+	"keyword": "rejected",
+	"function": true
+}, {
+	"keyword": "release",
+	"statement": true
+}, {
+	"keyword": "release external",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "release object",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "repeat",
+	"statement": true
+}, {
+	"keyword": "replace",
+	"function": true
+}, {
+	"keyword": "reposition",
+	"statement": true
+}, {
+	"keyword": "retry",
+	"function": true
+}, {
+	"keyword": "return",
+	"statement": true
+}, {
+	"keyword": "return-value",
+	"function": true
+}, {
+	"keyword": "rgb-value",
+	"function": true
+}, {
+	"keyword": "right-trim",
+	"function": true
+}, {
+	"keyword": "round",
+	"function": true
+}, {
+	"keyword": "row-state",
+	"function": true
+}, {
+	"keyword": "rowid",
+	"function": true
+}, {
+	"keyword": "run",
+	"statement": true
+}, {
+	"keyword": "run stored-procedure",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "run super",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "save cache",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "screen-lines",
+	"function": true
+}, {
+	"keyword": "scroll",
+	"statement": true
+}, {
+	"keyword": "sdbname",
+	"function": true
+}, {
+	"keyword": "search",
+	"function": true
+}, {
+	"keyword": "seek",
+	"function": true
+}, {
+	"keyword": "seek",
+	"statement": true
+}, {
+	"keyword": "selection-list",
+	"phrase": true
+}, {
+	"keyword": "set",
+	"statement": true
+}, {
+	"keyword": "set-byte-order",
+	"statement": true
+}, {
+	"keyword": "set-db-client",
+	"function": true
+}, {
+	"keyword": "set-effective-tenant",
+	"function": true
+}, {
+	"keyword": "set-pointer-value",
+	"statement": true
+}, {
+	"keyword": "set-size",
+	"statement": true
+}, {
+	"keyword": "setuserid",
+	"function": true
+}, {
+	"keyword": "sha1-digest",
+	"function": true
+}, {
+	"keyword": "show-stats",
+	"statement": true
+}, {
+	"keyword": "size",
+	"phrase": true
+}, {
+	"keyword": "slider",
+	"phrase": true
+}, {
+	"keyword": "sqrt",
+	"function": true
+}, {
+	"keyword": "ssl-server-name",
+	"function": true
+}, {
+	"keyword": "status",
+	"statement": true
+}, {
+	"keyword": "stop",
+	"statement": true
+}, {
+	"keyword": "string",
+	"function": true
+}, {
+	"keyword": "subscribe",
+	"statement": true
+}, {
+	"keyword": "substitute",
+	"function": true
+}, {
+	"keyword": "substring",
+	"function": true
+}, {
+	"keyword": "substring",
+	"statement": true
+}, {
+	"keyword": "super",
+	"function": true
+}, {
+	"keyword": "super",
+	"statement": true
+}, {
+	"keyword": "super",
+	"system_reference": true
+}, {
+	"keyword": "system-dialog color",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "system-dialog font",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "system-dialog get-dir",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "system-dialog get-file",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "system-dialog printer-setup",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "system-help",
+	"statement": true
+}, {
+	"keyword": "tenant-id",
+	"function": true
+}, {
+	"keyword": "tenant-name",
+	"function": true
+}, {
+	"keyword": "tenant-name-to-id",
+	"function": true
+}, {
+	"keyword": "terminal",
+	"function": true
+}, {
+	"keyword": "terminal",
+	"statement": true
+}, {
+	"keyword": "this-object",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "this-object",
+	"system_reference": true,
+	"ignore": true
+}, {
+	"keyword": "time",
+	"function": true
+}, {
+	"keyword": "timezone",
+	"function": true
+}, {
+	"keyword": "today",
+	"function": true
+}, {
+	"keyword": "to-rowid",
+	"function": true
+}, {
+	"keyword": "transaction",
+	"function": true
+}, {
+	"keyword": "transaction-mode automatic",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "trigger",
+	"phrase": true
+}, {
+	"keyword": "trigger procedure",
+	"statement": true,
+	"ignore": true
+}, {
+	"keyword": "trim",
+	"function": true
+}, {
+	"keyword": "truncate",
+	"function": true
+}, {
+	"keyword": "type-of",
+	"function": true
+}, {
+	"keyword": "unbox",
+	"function": true
+}, {
+	"keyword": "underline",
+	"statement": true
+}, {
+	"keyword": "undo",
+	"statement": true
+}, {
+	"keyword": "unix",
+	"statement": true
+}, {
+	"keyword": "unload",
+	"statement": true
+}, {
+	"keyword": "unsubscribe",
+	"statement": true
+}, {
+	"keyword": "up",
+	"statement": true
+}, {
+	"keyword": "update",
+	"statement": true
+}, {
+	"keyword": "use",
+	"statement": true
+}, {
+	"keyword": "userid",
+	"function": true
+}, {
+	"keyword": "using",
+	"statement": true
+}, {
+	"keyword": "valid-event",
+	"function": true
+}, {
+	"keyword": "valid-handle",
+	"function": true
+}, {
+	"keyword": "valid-object",
+	"function": true
+}, {
+	"keyword": "validate",
+	"statement": true
+}, {
+	"keyword": "view",
+	"statement": true
+}, {
+	"keyword": "view-as",
+	"phrase": true
+}, {
+	"keyword": "wait-for",
+	"statement": true
+}, {
+	"keyword": "weekday",
+	"function": true
+}, {
+	"keyword": "widget-handle",
+	"function": true
+}, {
+	"keyword": "year",
+	"function": true
+}]

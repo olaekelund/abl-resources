@@ -422,7 +422,7 @@
 	"statement": true,
 	"ignore": true
 }, {
-	"keyword": "defined preprocessor",
+	"keyword": "defined",
 	"function": true,
 	"ignore": true
 }, {

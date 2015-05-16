@@ -11,9 +11,9 @@ module.exports.run = function (objects) {
 	for (var i in objects) {
 		var k = objects[i];
 		var f = false;
-		if (k['ignore'] === true) continue;
+		if (k.ignore === true) continue;
 		if (k['function']) {
-			if (k['with_parenthases']) {
+			if (k.with_parenthases) {
 				scopes['keyword.function.parenthases'].push(objects[i].keyword);
 				if (k.abbreviation !== null) {
 					scopes['keyword.function.parenthases'].push(objects[i].abbreviation);
@@ -25,28 +25,28 @@ module.exports.run = function (objects) {
 				}
 			}
 		}
-		if (k['statement']) {
+		if (k.statement) {
 			f = true;
 			scopes['keyword.statement'].push(objects[i].keyword);
 			if (k.abbreviation !== null) {
 				scopes['keyword.statement'].push(objects[i].abbreviation);
 			}
 		}
-		if (k['system_reference']) {
+		if (k.system_reference) {
 			f = true;
 			scopes['keyword.systemreference'].push(objects[i].keyword);
 			if (k.abbreviation !== null) {
 				scopes['keyword.systemreference'].push(objects[i].abbreviation);
 			}
 		}
-		if (k['phrase']) {
+		/*if (k['phrase']) {
 			f = true;
 			scopes['keyword.phrase'].push(objects[i].keyword);
 			if (k.abbreviation !== null) {
 				scopes['keyword.phrase'].push(objects[i].abbreviation);
 			}
-		}
-		if (k['unknown'] && !f) {
+		}*/
+		if (k.unknown && !f && !k.preprocessor) {
 			scopes['keyword.other'].push(objects[i].keyword);
 			if (k.abbreviation !== null) {
 				scopes['keyword.other'].push(objects[i].abbreviation);

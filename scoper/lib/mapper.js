@@ -40,6 +40,12 @@ module.exports.run = function (files) {
 			if (all[k.keyword].snippet === null) {
 				all[k.keyword].snippet = k.snippet;
 			}
+			if (all[k.keyword].datatype === null) {
+				all[k.keyword].datatype = k.datatype;
+			}
+			if (all[k.keyword].preprocessor === null) {
+				all[k.keyword].preprocessor = k.preprocessor;
+			}
 		} else {
 			all[k.keyword] = k;
 		}
@@ -60,6 +66,8 @@ module.exports.run = function (files) {
 			k.ignore = list[i].ignore || null;
 			k.unknown = list[i].unknown || null;
 			k.snippet = list[i].snippet || null;
+			k.datatype = list[i].datatype || null;
+			k.preprocessor = list[i].preprocessor || null;
 			add(k);
 		}
 	}

@@ -1,0 +1,49 @@
+[{
+	"name": "BROWSE"
+}, {
+	"name": "BUTTON"
+}, {
+	"name": "COMBO-BOX"
+}, {
+	"name": "CONTROL-FRAME"
+}, {
+	"name": "DIALOG-BOX"
+}, {
+	"name": "EDITOR"
+}, {
+	"name": "FIELD-GROUP"
+}, {
+	"name": "FILL-IN"
+}, {
+	"name": "FRAME"
+}, {
+	"name": "IMAGE"
+}, {
+	"name": "LITERAL"
+}, {
+	"name": "MENU"
+}, {
+	"name": "MENU-ITEM"
+}, {
+	"name": "RADIO-SET"
+}, {
+	"name": "RECTANGLE",
+	"abbreviation": "RECT",
+	"reserved": true
+}, {
+	"name": "SELECTION-LIST"
+}, {
+	"name": "SHADOW-WINDOW"
+}, {
+	"name": "SLIDER"
+}, {
+	"name": "SUB-MENU",
+	"abbreviation": "SUB-"
+}, {
+	"name": "TEXT",
+	"reserved": true
+}, {
+	"name": "TOGGLE-BOX"
+}, {
+	"name": "WINDOW"
+}]

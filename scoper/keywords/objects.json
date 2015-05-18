@@ -1231,22 +1231,6 @@
         "datatype": null,
         "preprocessor": null
     },
-    "avail": {
-        "keyword": "avail",
-        "with_parenthases": null,
-        "without_parenthases": null,
-        "reserved": null,
-        "abbreviation": null,
-        "function": null,
-        "statement": null,
-        "system_reference": null,
-        "phrase": null,
-        "ignore": null,
-        "unknown": true,
-        "snippet": null,
-        "datatype": null,
-        "preprocessor": null
-    },
     "available": {
         "keyword": "available",
         "with_parenthases": null,
@@ -8271,22 +8255,6 @@
         "datatype": null,
         "preprocessor": null
     },
-    "file-info": {
-        "keyword": "file-info",
-        "with_parenthases": null,
-        "without_parenthases": null,
-        "reserved": null,
-        "abbreviation": null,
-        "function": null,
-        "statement": null,
-        "system_reference": null,
-        "phrase": null,
-        "ignore": null,
-        "unknown": true,
-        "snippet": null,
-        "datatype": null,
-        "preprocessor": null
-    },
     "file-information": {
         "keyword": "file-information",
         "with_parenthases": null,
@@ -10266,7 +10234,7 @@
         "system_reference": null,
         "phrase": null,
         "ignore": null,
-        "unknown": true,
+        "unknown": null,
         "snippet": null,
         "datatype": null,
         "preprocessor": null
@@ -10929,16 +10897,16 @@
     },
     "get-value": {
         "keyword": "get-value",
-        "with_parenthases": null,
+        "with_parenthases": true,
         "without_parenthases": null,
         "reserved": null,
         "abbreviation": null,
-        "function": null,
+        "function": true,
         "statement": null,
         "system_reference": null,
         "phrase": null,
         "ignore": null,
-        "unknown": true,
+        "unknown": null,
         "snippet": null,
         "datatype": null,
         "preprocessor": null
@@ -12015,22 +11983,6 @@
         "datatype": null,
         "preprocessor": null
     },
-    "info": {
-        "keyword": "info",
-        "with_parenthases": null,
-        "without_parenthases": null,
-        "reserved": null,
-        "abbreviation": null,
-        "function": null,
-        "statement": null,
-        "system_reference": null,
-        "phrase": null,
-        "ignore": null,
-        "unknown": true,
-        "snippet": null,
-        "datatype": null,
-        "preprocessor": null
-    },
     "information": {
         "keyword": "information",
         "with_parenthases": null,
@@ -12091,22 +12043,6 @@
         "phrase": null,
         "ignore": null,
         "unknown": null,
-        "snippet": null,
-        "datatype": null,
-        "preprocessor": null
-    },
-    "init": {
-        "keyword": "init",
-        "with_parenthases": null,
-        "without_parenthases": null,
-        "reserved": null,
-        "abbreviation": null,
-        "function": null,
-        "statement": null,
-        "system_reference": null,
-        "phrase": null,
-        "ignore": null,
-        "unknown": true,
         "snippet": null,
         "datatype": null,
         "preprocessor": null

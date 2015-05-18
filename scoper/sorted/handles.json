@@ -1,0 +1,95 @@
+[{
+	"name": "ACTIVE-WINDOW",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "AUDIT-CONTROL",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "AUDIT-POLICY",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "CLIPBOARD",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "CODEBASE-LOCATOR",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "COLOR-TABLE",
+	"type": "system-handle"
+}, {
+	"name": "COM-SELF",
+	"type": "system-handle"
+}, {
+	"name": "COMPILER",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "CURRENT-WINDOW",
+	"type": "system-handle"
+}, {
+	"name": "DEBUGGER",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "DEFAULT-WINDOW",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "DSLOG-MANAGER",
+	"type": "system-handle"
+}, {
+	"name": "ERROR-STATUS",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "FILE-INFO",
+	"type": "system-handle"
+}, {
+	"name": "FOCUS",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "FONT-TABLE",
+	"type": "system-handle"
+}, {
+	"name": "LAST-EVENT",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "LOG-MANAGER",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "RCODE-INFO",
+	"type": "handle"
+}, {
+	"name": "SECURITY-POLICY",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "SELF",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "SESSION",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "SOURCE-PROCEDURE",
+	"type": "system-handle"
+}, {
+	"name": "TARGET-PROCEDURE",
+	"type": "system-handle"
+}, {
+	"name": "THIS-PROCEDURE",
+	"type": "system-handle",
+	"reserved": true
+}, {
+	"name": "WEB-CONTEXT",
+	"type": "system-handle"
+}]

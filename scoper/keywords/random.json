@@ -27,16 +27,7 @@
 	"abbreviation": "dec",
 	"datatype": true
 }, {
-	"keyword": "avail",
-	"unknown": true
-}, {
-	"keyword": "file-info",
-	"unknown": true
-}, {
 	"keyword": "foreign-key-hidden",
-	"unknown": true
-}, {
-	"keyword": "info",
 	"unknown": true
 }, {
 	"keyword": "nested",
@@ -55,7 +46,8 @@
 	"unknown": true
 }, {
 	"keyword": "get-value",
-	"unknown": true
+	"function": true,
+	"with_parenthases": true
 }, {
 	"keyword": "window-close",
 	"unknown": true
@@ -64,9 +56,6 @@
 	"unknown": true
 }, {
 	"keyword": "x-noderef",
-	"unknown": true
-}, {
-	"keyword": "init",
 	"unknown": true
 }, {
 	"keyword": "output-http-header",
@@ -83,17 +72,7 @@
 }, {
 	"keyword": "get-field",
 	"function": true,
-	"with_parenthases": true,
-	"unknown": true
-}, {
-	"keyword": "relation-fields",
-	"function": true,
 	"with_parenthases": true
-}, {
-	"keyword": "get-field",
-	"function": true,
-	"with_parenthases": true,
-	"unknown": true
 }, {
 	"keyword": "relation-fields",
 	"function": true,

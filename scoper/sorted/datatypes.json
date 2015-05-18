@@ -1,0 +1,23 @@
+[{
+	"name": "CHARACTER",
+	"abbreviation": "CHAR"
+}, {
+	"name": "DATE"
+}, {
+	"name": "DATETIME"
+}, {
+	"name": "DATETIME-TZ"
+}, {
+	"name": "DECIMAL",
+	"abbreviation": "DEC"
+}, {
+	"name": "INT64"
+}, {
+	"name": "INTEGER",
+	"abbreviation": "INT"
+}, {
+	"name": "LOGICAL",
+	"abbreviation": "LOG"
+}, {
+	"name": "LONGCHAR"
+}]

@@ -1,0 +1,641 @@
+[{
+	"name": "ACCEPT-CHANGES"
+}, {
+	"name": "ACCEPT-ROW-CHANGES"
+}, {
+	"name": "ADD-BUFFER"
+}, {
+	"name": "ADD-CALC-COLUMN"
+}, {
+	"name": "ADD-COLUMNS-FROM"
+}, {
+	"name": "ADD-EVENTS-PROCEDURE"
+}, {
+	"name": "ADD-FIELDS-FROM"
+}, {
+	"name": "ADD-FIRST"
+}, {
+	"name": "ADD-HEADER-ENTRY"
+}, {
+	"name": "ADD-INDEX-FIELD"
+}, {
+	"name": "ADD-LAST"
+}, {
+	"name": "ADD-LIKE-COLUMN"
+}, {
+	"name": "ADD-LIKE-FIELD"
+}, {
+	"name": "ADD-LIKE-INDEX"
+}, {
+	"name": "ADD-NEW-FIELD"
+}, {
+	"name": "ADD-NEW-INDEX"
+}, {
+	"name": "ADD-PARENT-ID-RELATION"
+}, {
+	"name": "ADD-RELATION"
+}, {
+	"name": "ADD-SCHEMA-LOCATION"
+}, {
+	"name": "ADD-SOURCE-BUFFER"
+}, {
+	"name": "ADD-SUPER-PROCEDURE"
+}, {
+	"name": "APPEND-CHILD"
+}, {
+	"name": "APPLY-CALLBACK"
+}, {
+	"name": "ATTACH-DATA-SOURCE"
+}, {
+	"name": "AUTHENTICATION-FAILED"
+}, {
+	"name": "BEGIN-EVENT-GROUP"
+}, {
+	"name": "BUFFER-COMPARE"
+}, {
+	"name": "BUFFER-COPY"
+}, {
+	"name": "BUFFER-CREATE"
+}, {
+	"name": "BUFFER-DELETE"
+}, {
+	"name": "BUFFER-FIELD"
+}, {
+	"name": "BUFFER-RELEASE"
+}, {
+	"name": "BUFFER-VALIDATE"
+}, {
+	"name": "BUFFER-VALUE"
+}, {
+	"name": "CANCEL-BREAK"
+}, {
+	"name": "CANCEL-REQUESTS"
+}, {
+	"name": "CANCEL-REQUESTS-AFTER"
+}, {
+	"name": "CLEAR"
+}, {
+	"name": "CLEAR-APPL-CONTEXT"
+}, {
+	"name": "CLEAR-LOG"
+}, {
+	"name": "CLEAR-SELECTION"
+}, {
+	"name": "CLEAR-SORT-ARROWS"
+}, {
+	"name": "CLONE-NODE"
+}, {
+	"name": "CLOSE-LOG"
+}, {
+	"name": "CONNECT"
+}, {
+	"name": "CONNECT"
+}, {
+	"name": "CONNECT"
+}, {
+	"name": "CONNECT"
+}, {
+	"name": "CONNECTED"
+}, {
+	"name": "CONVERT-TO-OFFSET"
+}, {
+	"name": "COPY-DATASET"
+}, {
+	"name": "COPY-TEMP-TABLE"
+}, {
+	"name": "CREATE-LIKE"
+}, {
+	"name": "CREATE-LIKE-SEQUENTIAL"
+}, {
+	"name": "CREATE-NODE"
+}, {
+	"name": "CREATE-NODE-NAMESPACE"
+}, {
+	"name": "CREATE-RESULT-LIST-ENTRY"
+}, {
+	"name": "CURRENT-QUERY"
+}, {
+	"name": "DEBUG"
+}, {
+	"name": "DECLARE-NAMESPACE"
+}, {
+	"name": "DELETE"
+}, {
+	"name": "DELETE-CHAR"
+}, {
+	"name": "DELETE-CURRENT-ROW"
+}, {
+	"name": "DELETE-HEADER-ENTRY"
+}, {
+	"name": "DELETE-LINE"
+}, {
+	"name": "DELETE-NODE"
+}, {
+	"name": "DELETE-RESULT-LIST-ENTRY"
+}, {
+	"name": "DELETE-SELECTED-ROW"
+}, {
+	"name": "DELETE-SELECTED-ROWS"
+}, {
+	"name": "DESELECT-FOCUSED-ROW"
+}, {
+	"name": "DESELECT-ROWS"
+}, {
+	"name": "DESELECT-SELECTED-ROW"
+}, {
+	"name": "DETACH-DATA-SOURCE"
+}, {
+	"name": "DISABLE"
+}, {
+	"name": "DISABLE-CONNECTIONS"
+}, {
+	"name": "DISABLE-DUMP-TRIGGERS"
+}, {
+	"name": "DISABLE-LOAD-TRIGGERS"
+}, {
+	"name": "DISCONNECT"
+}, {
+	"name": "DISPLAY-MESSAGE"
+}, {
+	"name": "DUMP-LOGGING-NOW"
+}, {
+	"name": "EDIT-CLEAR"
+}, {
+	"name": "EDIT-COPY"
+}, {
+	"name": "EDIT-CUT"
+}, {
+	"name": "EDIT-PASTE"
+}, {
+	"name": "EDIT-UNDO"
+}, {
+	"name": "EMPTY-DATASET"
+}, {
+	"name": "EMPTY-TEMP-TABLE"
+}, {
+	"name": "ENABLE"
+}, {
+	"name": "ENABLE-CONNECTIONS"
+}, {
+	"name": "ENABLE-EVENTS"
+}, {
+	"name": "ENCRYPT-AUDIT-MAC-KEY"
+}, {
+	"name": "END-DOCUMENT"
+}, {
+	"name": "END-ELEMENT"
+}, {
+	"name": "END-EVENT-GROUP"
+}, {
+	"name": "END-FILE-DROP"
+}, {
+	"name": "ENTRY"
+}, {
+	"name": "EXPORT"
+}, {
+	"name": "EXPORT-PRINCIPAL"
+}, {
+	"name": "FETCH-SELECTED-ROW"
+}, {
+	"name": "FILL"
+}, {
+	"name": "FIND-BY-ROWID"
+}, {
+	"name": "FIND-CURRENT"
+}, {
+	"name": "FIND-FIRST"
+}, {
+	"name": "FIND-LAST"
+}, {
+	"name": "FIND-UNIQUE"
+}, {
+	"name": "FIRST-OF"
+}, {
+	"name": "GET-BINARY-DATA"
+}, {
+	"name": "GET-BLUE-VALUE"
+}, {
+	"name": "GET-BROWSE-COLUMN"
+}, {
+	"name": "GET-BUFFER-HANDLE"
+}, {
+	"name": "GET-BYTES-AVAILABLE"
+}, {
+	"name": "GET-CALLBACK-PROC-CONTEXT"
+}, {
+	"name": "GET-CALLBACK-PROC-NAME"
+}, {
+	"name": "GET-CGI-LIST"
+}, {
+	"name": "GET-CGI-VALUE"
+}, {
+	"name": "GET-CGI-LONG-VALUE"
+}, {
+	"name": "GET-CHANGES"
+}, {
+	"name": "GET-CHILD"
+}, {
+	"name": "GET-CHILD-RELATION"
+}, {
+	"name": "GET-CLIENT"
+}, {
+	"name": "GET-COLUMN"
+}, {
+	"name": "GET-CONFIG-VALUE"
+}, {
+	"name": "GET-CURRENT"
+}, {
+	"name": "GET-DATASET-BUFFER"
+}, {
+	"name": "GET-DOCUMENT-ELEMENT"
+}, {
+	"name": "GET-DROPPED-FILE"
+}, {
+	"name": "GET-DYNAMIC"
+}, {
+	"name": "GET-ERROR-COLUMN"
+}, {
+	"name": "GET-ERROR-ROW"
+}, {
+	"name": "GET-FILE-NAME"
+}, {
+	"name": "GET-FILE-OFFSET"
+}, {
+	"name": "GET-FIRST"
+}, {
+	"name": "GET-GREEN-VALUE"
+}, {
+	"name": "GET-HEADER-ENTRY"
+}, {
+	"name": "GET-INDEX-BY-NAMESPACE-NAME"
+}, {
+	"name": "GET-INDEX-BY-QNAME"
+}, {
+	"name": "GET-ITERATION"
+}, {
+	"name": "GET-ITERATION"
+}, {
+	"name": "GET-LAST"
+}, {
+	"name": "GET-LOCALNAME-BY-INDEX"
+}, {
+	"name": "GET-MESSAGE"
+}, {
+	"name": "GET-MESSAGE-TYPE"
+}, {
+	"name": "GET-NEXT"
+}, {
+	"name": "GET-NODE"
+}, {
+	"name": "GET-NUMBER"
+}, {
+	"name": "GET-PARENT"
+}, {
+	"name": "GET-PREV"
+}, {
+	"name": "GET-PROPERTY"
+}, {
+	"name": "GET-PRINTERS"
+}, {
+	"name": "GET-QNAME-BY-INDEX"
+}, {
+	"name": "GET-RED-VALUE"
+}, {
+	"name": "GET-RELATION"
+}, {
+	"name": "GET-REPOSITIONED-ROW"
+}, {
+	"name": "GET-RGB-VALUE"
+}, {
+	"name": "GET-ROW"
+}, {
+	"name": "GET-SELECTED-WIDGET"
+}, {
+	"name": "GET-SERIALIZED"
+}, {
+	"name": "GET-SIGNATURE"
+}, {
+	"name": "GET-SOCKET-OPTION"
+}, {
+	"name": "GET-SOURCE-BUFFER"
+}, {
+	"name": "GET-TAB-ITEM"
+}, {
+	"name": "GET-TEXT-HEIGHT-CHARS"
+}, {
+	"name": "GET-TEXT-HEIGHT-PIXELS"
+}, {
+	"name": "GET-TEXT-WIDTH-CHARS"
+}, {
+	"name": "GET-TEXT-WIDTH-PIXELS"
+}, {
+	"name": "GET-TOP-BUFFER"
+}, {
+	"name": "GET-TYPE-BY-INDEX"
+}, {
+	"name": "GET-TYPE-BY-NAMESPACE-NAME"
+}, {
+	"name": "GET-TYPE-BY-QNAME"
+}, {
+	"name": "GET-URI-BY-INDEX"
+}, {
+	"name": "GET-VALUE-BY-INDEX"
+}, {
+	"name": "GET-VALUE-BY-NAMESPACE-NAME"
+}, {
+	"name": "GET-VALUE-BY-QNAME"
+}, {
+	"name": "GET-WAIT-STATE"
+}, {
+	"name": "IMPORT-NODE"
+}, {
+	"name": "IMPORT-PRINCIPAL"
+}, {
+	"name": "INCREMENT-EXCLUSIVE-ID"
+}, {
+	"name": "INDEX-INFORMATION"
+}, {
+	"name": "INITIALIZE"
+}, {
+	"name": "INITIALIZE-DOCUMENT-TYPE"
+}, {
+	"name": "INITIATE"
+}, {
+	"name": "INSERT"
+}, {
+	"name": "INSERT-BACKTAB"
+}, {
+	"name": "INSERT-BEFORE"
+}, {
+	"name": "INSERT-FILE"
+}, {
+	"name": "INSERT-ROW"
+}, {
+	"name": "INSERT-STRING"
+}, {
+	"name": "INSERT-TAB"
+}, {
+	"name": "INVOKE"
+}, {
+	"name": "IS-ROW-SELECTED"
+}, {
+	"name": "IS-SELECTED"
+}, {
+	"name": "LAST-OF"
+}, {
+	"name": "LIST-PROPERTY-NAMES"
+}, {
+	"name": "LOAD"
+}, {
+	"name": "LoadControls"
+}, {
+	"name": "LOAD-DOMAINS"
+}, {
+	"name": "LOAD-ICON"
+}, {
+	"name": "LOAD-IMAGE"
+}, {
+	"name": "LOAD-IMAGE-DOWN"
+}, {
+	"name": "LOAD-IMAGE-INSENSITIVE"
+}, {
+	"name": "LOAD-IMAGE-UP"
+}, {
+	"name": "LOAD-MOUSE-POINTER"
+}, {
+	"name": "LOAD-SMALL-ICON"
+}, {
+	"name": "LOCK-REGISTRATION"
+}, {
+	"name": "LOG-AUDIT-EVENT"
+}, {
+	"name": "LOGOUT"
+}, {
+	"name": "LONGCHAR-TO-NODE-VALUE"
+}, {
+	"name": "LOOKUP"
+}, {
+	"name": "MARK-NEW"
+}, {
+	"name": "MARK-ROW-STATE"
+}, {
+	"name": "MEMPTR-TO-NODE-VALUE"
+}, {
+	"name": "MERGE-CHANGES"
+}, {
+	"name": "MERGE-ROW-CHANGES"
+}, {
+	"name": "MOVE-AFTER-TAB-ITEM"
+}, {
+	"name": "MOVE-BEFORE-TAB-ITEM"
+}, {
+	"name": "MOVE-COLUMN"
+}, {
+	"name": "MOVE-TO-BOTTOM"
+}, {
+	"name": "MOVE-TO-EOF"
+}, {
+	"name": "MOVE-TO-TOP"
+}, {
+	"name": "NODE-VALUE-TO-LONGCHAR"
+}, {
+	"name": "NODE-VALUE-TO-MEMPTR"
+}, {
+	"name": "NORMALIZE"
+}, {
+	"name": "QUERY-CLOSE"
+}, {
+	"name": "QUERY-OPEN"
+}, {
+	"name": "QUERY-PREPARE"
+}, {
+	"name": "RAW-TRANSFER"
+}, {
+	"name": "READ"
+}, {
+	"name": "READ-FILE"
+}, {
+	"name": "READ-JSON"
+}, {
+	"name": "READ-XML"
+}, {
+	"name": "READ-XMLSCHEMA"
+}, {
+	"name": "REFRESH"
+}, {
+	"name": "REFRESH-AUDIT-POLICY"
+}, {
+	"name": "REGISTER-DOMAIN"
+}, {
+	"name": "REJECT-CHANGES"
+}, {
+	"name": "REJECT-ROW-CHANGES"
+}, {
+	"name": "REMOVE-CHILD"
+}, {
+	"name": "REMOVE-EVENTS-PROCEDURE"
+}, {
+	"name": "REMOVE-SUPER-PROCEDURE"
+}, {
+	"name": "REPLACE"
+}, {
+	"name": "REPLACE-CHILD"
+}, {
+	"name": "REPLACE-SELECTION-TEXT"
+}, {
+	"name": "REPOSITION-BACKWARD"
+}, {
+	"name": "REPOSITION-FORWARD"
+}, {
+	"name": "REPOSITION-TO-ROW"
+}, {
+	"name": "REPOSITION-TO-ROWID"
+}, {
+	"name": "RESET"
+}, {
+	"name": "SAVE"
+}, {
+	"name": "SAVE-FILE"
+}, {
+	"name": "SAVE-ROW-CHANGES"
+}, {
+	"name": "SAX-PARSE"
+}, {
+	"name": "SAX-PARSE-FIRST"
+}, {
+	"name": "SAX-PARSE-NEXT"
+}, {
+	"name": "SCROLL-TO-CURRENT-ROW"
+}, {
+	"name": "SCROLL-TO-ITEM"
+}, {
+	"name": "SCROLL-TO-SELECTED-ROW"
+}, {
+	"name": "SEAL"
+}, {
+	"name": "SEARCH"
+}, {
+	"name": "SELECT-ALL"
+}, {
+	"name": "SELECT-FOCUSED-ROW"
+}, {
+	"name": "SELECT-NEXT-ROW"
+}, {
+	"name": "SELECT-PREV-ROW"
+}, {
+	"name": "SELECT-ROW"
+}, {
+	"name": "SERIALIZE-ROW"
+}, {
+	"name": "SET-ACTOR"
+}, {
+	"name": "SET-APPL-CONTEXT"
+}, {
+	"name": "SET-BLUE-VALUE"
+}, {
+	"name": "SET-BREAK"
+}, {
+	"name": "SET-BUFFERS"
+}, {
+	"name": "SET-CALLBACK"
+}, {
+	"name": "SET-CALLBACK-PROCEDURE"
+}, {
+	"name": "SET-CLIENT"
+}, {
+	"name": "SET-COMMIT"
+}, {
+	"name": "SET-CONNECT-PROCEDURE"
+}, {
+	"name": "SET-DYNAMIC"
+}, {
+	"name": "SET-GREEN-VALUE"
+}, {
+	"name": "SET-INPUT-SOURCE"
+}, {
+	"name": "SET-MUST-UNDERSTAND"
+}, {
+	"name": "SET-NODE"
+}, {
+	"name": "SET-NUMERIC-FORMAT"
+}, {
+	"name": "SET-OUTPUT-DESTINATION"
+}, {
+	"name": "SET-PARAMETER"
+}, {
+	"name": "SET-PROPERTY"
+}, {
+	"name": "SET-READ-RESPONSE-PROCEDURE"
+}, {
+	"name": "SET-RED-VALUE"
+}, {
+	"name": "SET-REPOSITIONED-ROW"
+}, {
+	"name": "SET-RGB-VALUE"
+}, {
+	"name": "SET-ROLE"
+}, {
+	"name": "SET-ROLLBACK"
+}, {
+	"name": "SET-SELECTION"
+}, {
+	"name": "SET-SERIALIZED"
+}, {
+	"name": "SET-SOCKET-OPTION"
+}, {
+	"name": "SET-SORT-ARROW"
+}, {
+	"name": "SET-WAIT-STATE"
+}, {
+	"name": "START-DOCUMENT"
+}, {
+	"name": "START-ELEMENT"
+}, {
+	"name": "STOP-PARSING"
+}, {
+	"name": "STRING-VALUE"
+}, {
+	"name": "SYNCHRONIZE"
+}, {
+	"name": "TEMP-TABLE-PREPARE"
+}, {
+	"name": "TENANT-ID"
+}, {
+	"name": "TENANT-NAME"
+}, {
+	"name": "URL-DECODE"
+}, {
+	"name": "URL-ENCODE"
+}, {
+	"name": "VALIDATE"
+}, {
+	"name": "VALIDATE-SEAL"
+}, {
+	"name": "WRITE"
+}, {
+	"name": "WRITE-CDATA"
+}, {
+	"name": "WRITE-CHARACTERS"
+}, {
+	"name": "WRITE-COMMENT"
+}, {
+	"name": "WRITE-DATA-ELEMENT"
+}, {
+	"name": "WRITE-EMPTY-ELEMENT"
+}, {
+	"name": "WRITE-ENTITY-REF"
+}, {
+	"name": "WRITE-EXTERNAL-DTD"
+}, {
+	"name": "WRITE-FRAGMENT"
+}, {
+	"name": "WRITE-JSON"
+}, {
+	"name": "WRITE-MESSAGE"
+}, {
+	"name": "WRITE-PROCESSING-INSTRUCTION"
+}, {
+	"name": "WRITE-XML"
+}, {
+	"name": "WRITE-XMLSCHEMA"
+}]

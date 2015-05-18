@@ -1,0 +1,166 @@
+[{
+	"name": "INPUT",
+	"reserved": true
+}, {
+	"name": "ABSOLUTE",
+	"abbreviation": "ABS"
+}, {
+	"name": "AMBIGUOUS",
+	"abbreviation": "AMBIG",
+	"reserved": true
+}, {
+	"name": "AVAILABLE",
+	"abbreviation": "AVAIL",
+	"reserved": true
+}, {
+	"name": "CURRENT-CHANGED",
+	"reserved": true
+}, {
+	"name": "CURRENT-LANGUAGE",
+	"abbreviation": "CURRENT-LANG",
+	"reserved": true
+}, {
+	"name": "DATA-SOURCE-MODIFIED"
+}, {
+	"name": "DATASERVERS",
+	"reserved": true
+}, {
+	"name": "DBNAME",
+	"reserved": true
+}, {
+	"name": "ELSE",
+	"reserved": true
+}, {
+	"name": "ENTERED"
+}, {
+	"name": "ERROR"
+}, {
+	"name": "FRAME-DB",
+	"reserved": true
+}, {
+	"name": "FRAME-DOWN",
+	"reserved": true
+}, {
+	"name": "FRAME-FIELD",
+	"reserved": true
+}, {
+	"name": "FRAME-FILE",
+	"reserved": true
+}, {
+	"name": "FRAME-INDEX",
+	"abbreviation": "FRAME-INDE",
+	"reserved": true
+}, {
+	"name": "FRAME-NAME",
+	"reserved": true
+}, {
+	"name": "FRAME-VALUE",
+	"abbreviation": "FRAME-VAL",
+	"reserved": true
+}, {
+	"name": "GATEWAYS",
+	"abbreviation": "GATEWAY",
+	"reserved": true
+}, {
+	"name": "GENERATE-PBE-SALT"
+}, {
+	"name": "GENERATE-RANDOM-KEY"
+}, {
+	"name": "GENERATE-UUID"
+}, {
+	"name": "GET-CODEPAGES",
+	"reserved": true
+}, {
+	"name": "GET-EFFECTIVE-TENANT-NAME"
+}, {
+	"name": "GO-PENDING",
+	"abbreviation": "GO-PEND",
+	"reserved": true
+}, {
+	"name": "IF",
+	"reserved": true
+}, {
+	"name": "ACCUM",
+	"reserved": true
+}, {
+	"name": "IS-ATTR-SPACE",
+	"abbreviation": "IS-ATTR",
+	"reserved": true
+}, {
+	"name": "LASTKEY",
+	"reserved": true
+}, {
+	"name": "LOCKED",
+	"reserved": true
+}, {
+	"name": "MESSAGE-LINES",
+	"reserved": true
+}, {
+	"name": "NEW",
+	"reserved": true
+}, {
+	"name": "NOW",
+	"reserved": true
+}, {
+	"name": "NUM-ALIASES",
+	"abbreviation": "NUM-ALI",
+	"reserved": true
+}, {
+	"name": "NUM-DBS",
+	"reserved": true
+}, {
+	"name": "OPSYS",
+	"reserved": true
+}, {
+	"name": "OS-DRIVES",
+	"abbreviation": "OS-DRIVE"
+}, {
+	"name": "OS-ERROR"
+}, {
+	"name": "PROC-HANDLE",
+	"abbreviation": "PROC-HA",
+	"reserved": true
+}, {
+	"name": "PROC-STATUS",
+	"abbreviation": "PROC-ST",
+	"reserved": true
+}, {
+	"name": "PROCESS-ARCHITECTURE"
+}, {
+	"name": "PROGRAM-NAME",
+	"reserved": true
+}, {
+	"name": "PROGRESS",
+	"reserved": true
+}, {
+	"name": "PROMSGS",
+	"reserved": true
+}, {
+	"name": "PROPATH",
+	"reserved": true
+}, {
+	"name": "RETRY",
+	"reserved": true
+}, {
+	"name": "RETURN-VALUE",
+	"abbreviation": "RETURN-VAL"
+}, {
+	"name": "SQRT"
+}, {
+	"name": "STRING"
+}, {
+	"name": "TERMINAL",
+	"abbreviation": "TERM",
+	"reserved": true
+}, {
+	"name": "THEN",
+	"reserved": true
+}, {
+	"name": "TIME",
+	"reserved": true
+}, {
+	"name": "TODAY"
+}, {
+	"name": "TRANSACTION",
+	"reserved": true
+}]

@@ -1,0 +1,604 @@
+[{
+	"name": "INT64",
+	"parenthases": true
+}, {
+	"name": "ADD-INTERVAL",
+	"parenthases": true
+}, {
+	"name": "ASC",
+	"parenthases": true
+}, {
+	"name": "AUDIT-ENABLED",
+	"parenthases": true
+}, {
+	"name": "BASE64-DECODE",
+	"parenthases": true
+}, {
+	"name": "BASE64-ENCODE",
+	"parenthases": true
+}, {
+	"name": "BOX",
+	"parenthases": true
+}, {
+	"name": "BUFFER-GROUP-ID",
+	"parenthases": true
+}, {
+	"name": "BUFFER-GROUP-NAME",
+	"parenthases": true
+}, {
+	"name": "BUFFER-PARTITION-ID",
+	"parenthases": true
+}, {
+	"name": "BUFFER-TENANT-ID",
+	"parenthases": true
+}, {
+	"name": "BUFFER-TENANT-NAME",
+	"parenthases": true
+}, {
+	"name": "CAN-DO",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "CAN-FIND",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "CAN-QUERY",
+	"parenthases": true
+}, {
+	"name": "CAN-SET",
+	"parenthases": true
+}, {
+	"name": "CAPS",
+	"parenthases": true
+}, {
+	"name": "CAST",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "CHR",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "CODEPAGE-CONVERT",
+	"parenthases": true,
+	"snippet": "CODEPAGE-CONVERT(${1:source-string},${2:target-codepage},${3:source-codepage})"
+}, {
+	"name": "COMPARE",
+	"parenthases": true
+}, {
+	"name": "CONNECTED",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "COUNT-OF",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "CURRENT-RESULT-ROW",
+	"parenthases": true
+}, {
+	"name": "CURRENT-VALUE",
+	"parenthases": true
+}, {
+	"name": "DATE",
+	"parenthases": true
+}, {
+	"name": "DATETIME",
+	"parenthases": true
+}, {
+	"name": "DATETIME-TZ",
+	"parenthases": true
+}, {
+	"name": "DAY",
+	"parenthases": true
+}, {
+	"name": "DB-REMOTE-HOST",
+	"parenthases": true
+}, {
+	"name": "DBCODEPAGE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DBCOLLATION",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DBPARAM",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DBRESTRICTIONS",
+	"parenthases": true,
+	"abbreviation": "DBREST",
+	"reserved": true
+}, {
+	"name": "DBTASKID",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DBTYPE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DBVERSION",
+	"parenthases": true,
+	"abbreviation": "DBVERS",
+	"reserved": true
+}, {
+	"name": "DEC",
+	"parenthases": true
+}, {
+	"name": "DECIMAL",
+	"parenthases": true
+}, {
+	"name": "DECRYPT",
+	"parenthases": true
+}, {
+	"name": "DYNAMIC-CAST",
+	"parenthases": true
+}, {
+	"name": "DYNAMIC-CURRENT-VALUE",
+	"parenthases": true
+}, {
+	"name": "DYNAMIC-FUNCTION",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DYNAMIC-INVOKE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "DYNAMIC-NEXT-VALUE",
+	"parenthases": true
+}, {
+	"name": "DYNAMIC-PROPERTY",
+	"parenthases": true
+}, {
+	"name": "ENCODE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "ENCRYPT",
+	"parenthases": true
+}, {
+	"name": "ENTRY",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "ETIME",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "EXP",
+	"parenthases": true
+}, {
+	"name": "EXTENT",
+	"parenthases": true
+}, {
+	"name": "FILL",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "FIRST",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "FIRST-OF",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "FRAME-COL",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "FRAME-LINE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "FRAME-ROW",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "GENERATE-PBE-KEY",
+	"parenthases": true
+}, {
+	"name": "GET-BITS",
+	"parenthases": true
+}, {
+	"name": "GET-BYTE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "GET-BYTE-ORDER",
+	"parenthases": true
+}, {
+	"name": "GET-BYTES",
+	"parenthases": true
+}, {
+	"name": "GET-CLASS",
+	"parenthases": true
+}, {
+	"name": "GET-CODEPAGE",
+	"parenthases": true
+}, {
+	"name": "GET-COLLATION",
+	"parenthases": true
+}, {
+	"name": "GET-COLLATIONS",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "GET-DB-CLIENT",
+	"parenthases": true
+}, {
+	"name": "GET-DOUBLE",
+	"parenthases": true
+}, {
+	"name": "GET-EFFECTIVE-TENANT-ID",
+	"parenthases": true
+}, {
+	"name": "GET-FIELD",
+	"parenthases": true
+}, {
+	"name": "GET-FLOAT",
+	"parenthases": true
+}, {
+	"name": "GET-INT64",
+	"parenthases": true
+}, {
+	"name": "GET-LONG",
+	"parenthases": true
+}, {
+	"name": "GET-POINTER-VALUE",
+	"parenthases": true
+}, {
+	"name": "GET-SHORT",
+	"parenthases": true
+}, {
+	"name": "GET-SIZE",
+	"parenthases": true
+}, {
+	"name": "GET-STRING",
+	"parenthases": true
+}, {
+	"name": "GET-UNSIGNED-LONG",
+	"parenthases": true
+}, {
+	"name": "GET-UNSIGNED-SHORT",
+	"parenthases": true
+}, {
+	"name": "GET-VALUE",
+	"parenthases": true
+}, {
+	"name": "GUID",
+	"parenthases": true
+}, {
+	"name": "HANDLE",
+	"parenthases": true
+}, {
+	"name": "HEX-DECODE",
+	"parenthases": true
+}, {
+	"name": "HEX-ENCODE",
+	"parenthases": true
+}, {
+	"name": "INDEX",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "INT",
+	"parenthases": true
+}, {
+	"name": "ALIAS",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "INTEGER",
+	"parenthases": true,
+	"abbreviation": "INT"
+}, {
+	"name": "INTERVAL",
+	"parenthases": true
+}, {
+	"name": "IS-CODEPAGE-FIXED",
+	"parenthases": true
+}, {
+	"name": "IS-COLUMN-CODEPAGE",
+	"parenthases": true
+}, {
+	"name": "IS-DB-MULTI-TENANT",
+	"parenthases": true
+}, {
+	"name": "IS-LEAD-BYTE",
+	"parenthases": true,
+	"abbreviation": "IS-ATTR",
+	"reserved": true
+}, {
+	"name": "ISO-DATE",
+	"parenthases": true
+}, {
+	"name": "KBLABEL",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "KEYCODE",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "KEYFUNCTION",
+	"parenthases": true,
+	"abbreviation": "KEYFUNC",
+	"reserved": true
+}, {
+	"name": "KEYLABEL",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "KEYWORD",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "KEYWORD-ALL",
+	"parenthases": true
+}, {
+	"name": "LAST",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "LAST-OF",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "LC",
+	"parenthases": true
+}, {
+	"name": "LDBNAME",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "LEFT-TRIM",
+	"parenthases": true
+}, {
+	"name": "LENGTH",
+	"parenthases": true
+}, {
+	"name": "LIBRARY",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "LINE-COUNTER",
+	"parenthases": true,
+	"abbreviation": "LINE-COUNT",
+	"reserved": true
+}, {
+	"name": "LIST-EVENTS",
+	"parenthases": true
+}, {
+	"name": "LIST-QUERY-ATTRS",
+	"parenthases": true
+}, {
+	"name": "LIST-SET-ATTRS",
+	"parenthases": true
+}, {
+	"name": "LIST-WIDGETS",
+	"parenthases": true
+}, {
+	"name": "LOG",
+	"parenthases": true
+}, {
+	"name": "LOGICAL",
+	"parenthases": true
+}, {
+	"name": "LOOKUP",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "MAXIMUM",
+	"parenthases": true,
+	"abbreviation": "MAX"
+}, {
+	"name": "MD5-DIGEST",
+	"parenthases": true
+}, {
+	"name": "MEMBER",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "MESSAGE-DIGEST",
+	"parenthases": true
+}, {
+	"name": "MINIMUM",
+	"parenthases": true,
+	"abbreviation": "MIN"
+}, {
+	"name": "MONTH",
+	"parenthases": true
+}, {
+	"name": "MTIME",
+	"parenthases": true
+}, {
+	"name": "NEXT-VALUE",
+	"parenthases": true
+}, {
+	"name": "NORMALIZE",
+	"parenthases": true
+}, {
+	"name": "NUM-ENTRIES",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "NUM-RESULTS",
+	"parenthases": true
+}, {
+	"name": "OS-GETENV",
+	"parenthases": true
+}, {
+	"name": "PAGE-NUMBER",
+	"parenthases": true,
+	"abbreviation": "PAGE-NUM",
+	"reserved": true
+}, {
+	"name": "PAGE-SIZE",
+	"parenthases": true
+}, {
+	"name": "PDBNAME",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "PROVERSION",
+	"parenthases": true,
+	"abbreviation": "PROVERS",
+	"reserved": true
+}, {
+	"name": "QUERY-OFF-END",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "QUOTER",
+	"parenthases": true
+}, {
+	"name": "R-INDEX",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "RANDOM",
+	"parenthases": true
+}, {
+	"name": "RAW",
+	"parenthases": true
+}, {
+	"name": "RECID",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "RECORD-LENGTH",
+	"parenthases": true
+}, {
+	"name": "REJECTED",
+	"parenthases": true
+}, {
+	"name": "RELATION-FIELDS",
+	"parenthases": true,
+	"snippet": "RELATION-FIELDS(${1:field-name}, ${2:field-name}) NESTED"
+}, {
+	"name": "REPLACE",
+	"parenthases": true,
+	"description": "(CHAR) target = REPLACE(source,from,to)",
+	"snippet": "REPLACE(${1:source-string},${2:from-string},${3:to-string})"
+}, {
+	"name": "RGB-VALUE",
+	"parenthases": true
+}, {
+	"name": "RIGHT-TRIM",
+	"parenthases": true
+}, {
+	"name": "ROUND",
+	"parenthases": true
+}, {
+	"name": "ROW-STATE",
+	"parenthases": true
+}, {
+	"name": "ROWID",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "SCREEN-LINES",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "SDBNAME",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "SEARCH",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "SEEK",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "SET-DB-CLIENT",
+	"parenthases": true
+}, {
+	"name": "SET-EFFECTIVE-TENANT",
+	"parenthases": true
+}, {
+	"name": "SETUSERID",
+	"parenthases": true,
+	"abbreviation": "SETUSER",
+	"reserved": true
+}, {
+	"name": "SHA1-DIGEST",
+	"parenthases": true
+}, {
+	"name": "SSL-SERVER-NAME",
+	"parenthases": true
+}, {
+	"name": "SUBSTITUTE",
+	"parenthases": true,
+	"abbreviation": "SUBST"
+}, {
+	"name": "SUBSTRING",
+	"parenthases": true,
+	"abbreviation": "SUBSTR"
+}, {
+	"name": "STRING",
+	"parenthases": true
+}, {
+	"name": "SUPER",
+	"parenthases": true
+}, {
+	"name": "TENANT-ID",
+	"parenthases": true
+}, {
+	"name": "TENANT-NAME",
+	"parenthases": true
+}, {
+	"name": "TENANT-NAME-TO-ID",
+	"parenthases": true
+}, {
+	"name": "TIMEZONE",
+	"parenthases": true
+}, {
+	"name": "TO-ROWID",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "TRIM",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "TRUNCATE",
+	"parenthases": true,
+	"abbreviation": "TRUNC"
+}, {
+	"name": "TYPE-OF",
+	"parenthases": true
+}, {
+	"name": "UNBOX",
+	"parenthases": true
+}, {
+	"name": "USERID",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "VALID-EVENT",
+	"parenthases": true
+}, {
+	"name": "VALID-HANDLE",
+	"parenthases": true
+}, {
+	"name": "VALID-OBJECT",
+	"parenthases": true
+}, {
+	"name": "WEEKDAY",
+	"parenthases": true
+}, {
+	"name": "WIDGET-HANDLE",
+	"parenthases": true
+}, {
+	"name": "YEAR",
+	"parenthases": true
+}]

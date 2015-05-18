@@ -1,86 +1,52 @@
-var snippets = require('../keywords/snippets');
-
-function pushType(arr, k, type) {
-	var s = null,
-		t = '',
-		p = '';
-
-	if (type == 'function' && k.with_parenthases) {
-		s = '(${1:value...})';
-		t = '()';
-	}
-	if (type == 'preprocessor') {
-		p = '&';
-		s = '';
-	}
-	var o = {};
-	o.text = k.keyword.toUpperCase();
-	o.displayText = p + k.keyword.toUpperCase() + t;
-	o.type = type;
-	if (s !== null) o.snippet = p + o.text + s;
-	arr.push(o);
-
-	if (k.abbreviation !== null) {
-		o = {};
-		o.text = k.abbreviation.toUpperCase();
-		o.displayText = p + k.abbreviation.toUpperCase() + t;
-		o.type = type;
-		if (s !== null) o.snippet = p + o.text + s;
-		arr.push(o);
-	}
-}
-
 module.exports.run = function (objects) {
-	var completions = [],
-		found, k;
-	for (var i in objects) {
-		k = objects[i];
-		if (k.ignore === true) continue;
-		found = false;
-		if (k['function']) {
-			pushType(completions, k, 'function');
-		}
-		if (k.statement || k.system_reference) {
-			found = true;
-			if (k.preprocessor) {
-				pushType(completions, k, 'preprocessor');
-			} else {
-				pushType(completions, k, 'keyword');
-			}
-		}
-		if (k.datatype) {
-			found = true;
-			pushType(completions, k, 'datatype');
-		}
-		if (!found) {
-			if (k.preprocessor) {
-				pushType(completions, k, 'preprocessor');
-			} else {
-				pushType(completions, k, 'keyword');
-			}
-		}
-	}
+	var completions = [];
 
-	for (var j in snippets) {
-		var snippet = snippets[j];
-		found = false;
-		for (var c in completions) {
-			var text = completions[c];
-			if (snippet.text === text.text && snippet.type === text.type) {
-				found = true;
-				if (snippet.displayText !== text.displayText) text.displayText = snippet.displayText;
-				if (snippet.snippet !== text.snippet) text.snippet = snippet.snippet;
-				if (snippet.description !== text.description) text.description = snippet.description;
+	function pushOjb(obj, name, type) {
+		var t = {};
+		t.text = name;
+		t.snippet = obj.snippet;
+		t.displayText = obj.displayText;
+		if (type == 'attributes') {
+			t.type = "attribute";
+		} else if (type == 'datatypes') {
+			t.type = "datatype";
+		} else if (type == 'functions_with_parenthases') {
+			t.type = 'function';
+			if (!obj.displayText) t.displayText = name + '()';
+			if (!obj.snippet) t.snippet = name + '(${1:value...})';
+		} else if (type == 'functions_without_parenthases') {
+			t.type = 'function';
+		} else if (type == 'handles') {
+			t.type = "handle";
+		} else if (type == 'methods') {
+			t.type = "method";
+			t.displayText = name + '()';
+			if (!obj.snippet) t.snippet = name + '(${1:value...})';
+		} else if (type == 'preprocessor_directives') {
+			t.type = 'preprocessor';
+			if (obj.parenthases) t.displayText = name + '()';
+		} else if (type == 'statements') {
+			t.type = "statement";
+		} else if (type == 'system_references') {
+			t.type = 'keyword';
+		} else if (type == 'widgets') {
+			t.type = "widget";
+		} else if (type == 'unknowns') {
+			t.type = 'keyword';
+		} else if (type == 'snippets') {
+			t = obj;
+		}
+		completions.push(t);
+	}
+	for (var o in objects) {
+		var arr = objects[o];
+		for (var i in arr) {
+			var obj = arr[i];
+			pushOjb(obj, obj.name, o);
+			if (obj.abbreviation) {
+				pushOjb(obj, obj.abbreviation, o);
 			}
 		}
-		if (!found) {
-			completions.push(snippet);
-		}
 	}
-	completions.sort(function (a, b) {
-		if (a.text > b.text) return 1;
-		if (a.text < b.text) return -1;
-		return 0;
-	});
 	return completions;
 };

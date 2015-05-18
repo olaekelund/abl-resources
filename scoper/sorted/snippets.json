@@ -1,0 +1,46 @@
+[{
+	"text": "FOR EACH NO-LOCK",
+	"displayText": "FOR EACH NO-LOCK",
+	"snippet": "FOR EACH ${1:table-name} NO-LOCK:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "FOR EACH EXCLUSIVE-LOCK",
+	"displayText": "FOR EACH EXCLUSIVE-LOCK",
+	"snippet": "FOR EACH ${1:table-name} EXCLUSIVE-LOCK:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "FOR FIRST NO-LOCK",
+	"displayText": "FOR FIRST NO-LOCK",
+	"snippet": "FOR FIRST ${1:table-name} NO-LOCK:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "FOR FIRST EXCLUSIVE-LOCK",
+	"displayText": "FOR FIRST EXCLUSIVE-LOCK",
+	"snippet": "FOR FIRST ${1:table-name} EXCLUSIVE-LOCK:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "FOR LAST NO-LOCK",
+	"displayText": "FOR LAST NO-LOCK",
+	"snippet": "FOR LAST ${1:table-name} NO-LOCK:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "FOR LAST EXCLUSIVE-LOCK",
+	"displayText": "FOR LAST EXCLUSIVE-LOCK",
+	"snippet": "FOR LAST ${1:table-name} EXCLUSIVE-LOCK:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "DO TO",
+	"displayText": "DO TO",
+	"snippet": "DO ${1:from-value}=1 TO ${2:to-value}:\n\nEND.",
+	"type": "statement"
+}, {
+	"text": "DEF VAR NO-UNDO",
+	"displayText": "DEF VAR NO-UNDO",
+	"snippet": "DEF VAR ${1:var-name} AS ${2:data-type} NO-UNDO INIT ?.",
+	"type": "statement"
+}, {
+	"text": "DEF DATASET",
+	"displayText": "DEF DATASET",
+	"snippet": "DEF DATASET ${1:dataset-name} FOR ${2:table-name,...}\n\tDATA-RELATION ${3:relation-name} FOR ${3:table-name},${4:table-name} RELATION-FIELDS(${1:field-name}, ${2:field-name}) NESTED\n.",
+	"type": "statement"
+}]

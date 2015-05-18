@@ -1,0 +1,28 @@
+[{
+	"name": "&GLOBAL-DEFINE",
+	"abbreviation": "&GLOB"
+}, {
+	"name": "&SCOPED-DEFINE",
+	"abbreviation": "&SCOP"
+}, {
+	"name": "&ELSEIF"
+}, {
+	"name": "&ENDIF"
+}, {
+	"name": "&UNDEFINE",
+	"abbreviation": "&UNDEF"
+}, {
+	"name": "&WEBSTREAM"
+}, {
+	"name": "&IF"
+}, {
+	"name": "&ELSE"
+}, {
+	"name": "&MESSAGE"
+}, {
+	"name": "&THEN"
+}, {
+	"name": "DEFINED",
+	"parenthases": true,
+	"function": true
+}]

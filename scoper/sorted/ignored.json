@@ -1,0 +1,179 @@
+{
+	"functions_without_parenthases": [{
+		"name": "NOT ENTERED"
+	}],
+	"statements": [{
+		"name": "CLOSE QUERY"
+	}, {
+		"name": "CLOSE STORED-PROCEDURE"
+	}, {
+		"name": "CREATE ALIAS"
+	}, {
+		"name": "CREATE AUTOMATION OBJECT"
+	}, {
+		"name": "CREATE BROWSE"
+	}, {
+		"name": "CREATE BUFFER"
+	}, {
+		"name": "CREATE CALL"
+	}, {
+		"name": "CREATE CLIENT-PRINCIPAL"
+	}, {
+		"name": "CREATE DATA-SOURCE"
+	}, {
+		"name": "CREATE DATABASE"
+	}, {
+		"name": "CREATE DATASET"
+	}, {
+		"name": "CREATE QUERY"
+	}, {
+		"name": "CREATE SAX-ATTRIBUTES"
+	}, {
+		"name": "CREATE SAX-READER"
+	}, {
+		"name": "CREATE SAX-WRITER"
+	}, {
+		"name": "CREATE SERVER"
+	}, {
+		"name": "CREATE SERVER-SOCKET"
+	}, {
+		"name": "CREATE SOAP-HEADER"
+	}, {
+		"name": "CREATE SOAP-HEADER-ENTRYREF"
+	}, {
+		"name": "CREATE SOCKET"
+	}, {
+		"name": "CREATE TEMP-TABLE"
+	}, {
+		"name": "CREATE WIDGET"
+	}, {
+		"name": "CREATE WIDGET-POOL"
+	}, {
+		"name": "CREATE X-DOCUMENT"
+	}, {
+		"name": "CREATE X-NODEREF"
+	}, {
+		"name": "DDE ADVISE"
+	}, {
+		"name": "DDE EXECUTE"
+	}, {
+		"name": "DDE GET"
+	}, {
+		"name": "DDE INITIATE"
+	}, {
+		"name": "DDE REQUEST"
+	}, {
+		"name": "DDE SEND"
+	}, {
+		"name": "DDE TERMINATE"
+	}, {
+		"name": "DEFINE BROWSE"
+	}, {
+		"name": "DEFINE BUFFER"
+	}, {
+		"name": "DEFINE BUTTON"
+	}, {
+		"name": "DEFINE DATA-SOURCE"
+	}, {
+		"name": "DEFINE DATASET"
+	}, {
+		"name": "DEFINE EVENT"
+	}, {
+		"name": "DEFINE FRAME"
+	}, {
+		"name": "DEFINE IMAGE"
+	}, {
+		"name": "DEFINE MENU"
+	}, {
+		"name": "DEFINE PARAMETER"
+	}, {
+		"name": "DEFINE PROPERTY"
+	}, {
+		"name": "DEFINE QUERY"
+	}, {
+		"name": "DEFINE RECTANGLE"
+	}, {
+		"name": "DEFINE STREAM"
+	}, {
+		"name": "DEFINE SUB-MENU"
+	}, {
+		"name": "DEFINE TEMP-TABLE"
+	}, {
+		"name": "DEFINE VARIABLE"
+	}, {
+		"name": "DEFINE WORK-TABLE"
+	}, {
+		"name": "DEFINE WORKFILE"
+	}, {
+		"name": "DELETE ALIAS"
+	}, {
+		"name": "DELETE OBJECT"
+	}, {
+		"name": "DELETE PROCEDURE"
+	}, {
+		"name": "DELETE WIDGET"
+	}, {
+		"name": "DELETE WIDGET-POOL"
+	}, {
+		"name": "DISABLE TRIGGERS"
+	}, {
+		"name": "EMPTY TEMP-TABLE"
+	}, {
+		"name": "INPUT CLEAR"
+	}, {
+		"name": "INPUT CLOSE"
+	}, {
+		"name": "INPUT FROM"
+	}, {
+		"name": "INPUT THROUGH"
+	}, {
+		"name": "INPUT-OUTPUT CLOSE"
+	}, {
+		"name": "INPUT-OUTPUT THROUGH"
+	}, {
+		"name": "OPEN QUERY"
+	}, {
+		"name": "OUTPUT CLOSE"
+	}, {
+		"name": "OUTPUT THROUGH"
+	}, {
+		"name": "OUTPUT TO"
+	}, {
+		"name": "PUT CURSOR"
+	}, {
+		"name": "PUT SCREEN"
+	}, {
+		"name": "RELEASE EXTERNAL"
+	}, {
+		"name": "RELEASE OBJECT"
+	}, {
+		"name": "RUN STORED-PROCEDURE"
+	}, {
+		"name": "RUN SUPER"
+	}, {
+		"name": "SAVE CACHE"
+	}, {
+		"name": "SYSTEM-DIALOG COLOR"
+	}, {
+		"name": "SYSTEM-DIALOG FONT"
+	}, {
+		"name": "SYSTEM-DIALOG GET-DIR"
+	}, {
+		"name": "SYSTEM-DIALOG GET-FILE"
+	}, {
+		"name": "SYSTEM-DIALOG PRINTER-SETUP"
+	}, {
+		"name": "TRANSACTION-MODE AUTOMATIC"
+	}, {
+		"name": "TRIGGER PROCEDURE"
+	}],
+	"unknowns": [{
+		"name": "ON ENDKEY"
+	}, {
+		"name": "ON ERROR"
+	}, {
+		"name": "ON QUIT"
+	}, {
+		"name": "ON STOP"
+	}]
+}

@@ -1,0 +1,346 @@
+[{
+	"name": "OS-COMMAND",
+	"reserved": true
+}, {
+	"name": "ACCUMULATE",
+	"abbreviation": "ACCUM",
+	"reserved": true
+}, {
+	"name": "ASSIGN",
+	"reserved": true
+}, {
+	"name": "BELL",
+	"reserved": true
+}, {
+	"name": "BUFFER-COMPARE"
+}, {
+	"name": "BUFFER-COPY"
+}, {
+	"name": "CALL",
+	"reserved": true
+}, {
+	"name": "CASE",
+	"reserved": true
+}, {
+	"name": "CATCH"
+}, {
+	"name": "CHOOSE"
+}, {
+	"name": "CLASS"
+}, {
+	"name": "CLEAR",
+	"reserved": true
+}, {
+	"name": "COLOR",
+	"reserved": true
+}, {
+	"name": "COMPILE"
+}, {
+	"name": "CONNECT"
+}, {
+	"name": "COPY-LOB",
+	"reserved": true
+}, {
+	"name": "CREATE",
+	"reserved": true
+}, {
+	"name": "CURRENT-LANGUAGE",
+	"abbreviation": "CURRENT-LANG",
+	"reserved": true
+}, {
+	"name": "CURRENT-VALUE"
+}, {
+	"name": "DELETE",
+	"abbreviation": "DEL",
+	"reserved": true
+}, {
+	"name": "DESTRUCTOR"
+}, {
+	"name": "DICTIONARY",
+	"abbreviation": "DICT",
+	"reserved": true
+}, {
+	"name": "DISABLE",
+	"reserved": true
+}, {
+	"name": "DISCONNECT",
+	"abbreviation": "DISCON",
+	"reserved": true
+}, {
+	"name": "DISPLAY",
+	"abbreviation": "DISP",
+	"reserved": true
+}, {
+	"name": "DO",
+	"reserved": true
+}, {
+	"name": "DOS",
+	"reserved": true
+}, {
+	"name": "DOWN",
+	"reserved": true
+}, {
+	"name": "DYNAMIC-CURRENT-VALUE"
+}, {
+	"name": "DYNAMIC-NEW"
+}, {
+	"name": "DYNAMIC-PROPERTY"
+}, {
+	"name": "ELSE",
+	"reserved": true
+}, {
+	"name": "ENABLE",
+	"reserved": true
+}, {
+	"name": "END",
+	"reserved": true
+}, {
+	"name": "ENTRY",
+	"reserved": true
+}, {
+	"name": "EXPORT",
+	"reserved": true
+}, {
+	"name": "EXTENT"
+}, {
+	"name": "FINALLY"
+}, {
+	"name": "FIND",
+	"reserved": true
+}, {
+	"name": "FIX-CODEPAGE"
+}, {
+	"name": "FOR",
+	"reserved": true
+}, {
+	"name": "FORM",
+	"reserved": true
+}, {
+	"name": "FRAME-VALUE",
+	"abbreviation": "FRAME-VAL",
+	"reserved": true
+}, {
+	"name": "FUNCTION"
+}, {
+	"name": "GET"
+}, {
+	"name": "GET-KEY-VALUE",
+	"abbreviation": "GET-KEY-VAL",
+	"reserved": true
+}, {
+	"name": "HIDE",
+	"reserved": true
+}, {
+	"name": "IF",
+	"reserved": true
+}, {
+	"name": "IMPORT",
+	"reserved": true
+}, {
+	"name": "INSERT",
+	"reserved": true
+}, {
+	"name": "INTERFACE"
+}, {
+	"name": "LEAVE",
+	"reserved": true
+}, {
+	"name": "LENGTH"
+}, {
+	"name": "LOAD"
+}, {
+	"name": "LOAD-PICTURE"
+}, {
+	"name": "MESSAGE",
+	"reserved": true
+}, {
+	"name": "METHOD"
+}, {
+	"name": "NEW",
+	"reserved": true
+}, {
+	"name": "NEXT",
+	"reserved": true
+}, {
+	"name": "NEXT-PROMPT",
+	"reserved": true
+}, {
+	"name": "ON",
+	"reserved": true
+}, {
+	"name": "OS-APPEND",
+	"reserved": true
+}, {
+	"name": "APPLY",
+	"reserved": true
+}, {
+	"name": "OS-COPY",
+	"reserved": true
+}, {
+	"name": "OS-CREATE-DIR",
+	"reserved": true
+}, {
+	"name": "OS-DELETE",
+	"reserved": true
+}, {
+	"name": "OS-RENAME",
+	"reserved": true
+}, {
+	"name": "OVERLAY",
+	"reserved": true
+}, {
+	"name": "PAGE",
+	"reserved": true
+}, {
+	"name": "PAUSE",
+	"reserved": true
+}, {
+	"name": "PROCEDURE",
+	"abbreviation": "PROCE"
+}, {
+	"name": "PROCESS EVENTS"
+}, {
+	"name": "PROMPT-FOR",
+	"abbreviation": "PROMPT-F",
+	"reserved": true
+}, {
+	"name": "PROMSGS",
+	"reserved": true
+}, {
+	"name": "PROPATH",
+	"reserved": true
+}, {
+	"name": "PUBLISH"
+}, {
+	"name": "PUT",
+	"reserved": true
+}, {
+	"name": "PUT-BITS"
+}, {
+	"name": "PUT-BYTE",
+	"reserved": true
+}, {
+	"name": "PUT-BYTES"
+}, {
+	"name": "PUT-DOUBLE"
+}, {
+	"name": "PUT-FLOAT"
+}, {
+	"name": "PUT-INT64"
+}, {
+	"name": "PUT-KEY-VALUE",
+	"abbreviation": "PUT-KEY-VAL",
+	"reserved": true
+}, {
+	"name": "PUT-LONG"
+}, {
+	"name": "PUT-SHORT"
+}, {
+	"name": "PUT-STRING"
+}, {
+	"name": "PUT-UNSIGNED-LONG"
+}, {
+	"name": "PUT-UNSIGNED-SHORT"
+}, {
+	"name": "QUIT",
+	"reserved": true
+}, {
+	"name": "RAW"
+}, {
+	"name": "RAW-TRANSFER"
+}, {
+	"name": "READKEY",
+	"reserved": true
+}, {
+	"name": "RELEASE",
+	"reserved": true
+}, {
+	"name": "REPEAT",
+	"reserved": true
+}, {
+	"name": "REPOSITION",
+	"reserved": true
+}, {
+	"name": "RETURN",
+	"reserved": true
+}, {
+	"name": "RUN",
+	"reserved": true
+}, {
+	"name": "SCROLL",
+	"reserved": true
+}, {
+	"name": "SEEK",
+	"reserved": true
+}, {
+	"name": "SET",
+	"reserved": true
+}, {
+	"name": "SET-BYTE-ORDER"
+}, {
+	"name": "SET-POINTER-VALUE"
+}, {
+	"name": "SET-SIZE"
+}, {
+	"name": "SHOW-STATS",
+	"abbreviation": "SHOW-STAT",
+	"reserved": true
+}, {
+	"name": "STATUS",
+	"reserved": true
+}, {
+	"name": "STOP"
+}, {
+	"name": "SUBSCRIBE"
+}, {
+	"name": "SUBSTRING",
+	"abbreviation": "SUBSTR"
+}, {
+	"name": "SUPER"
+}, {
+	"name": "SYSTEM-HELP"
+}, {
+	"name": "TERMINAL",
+	"abbreviation": "TERM",
+	"reserved": true
+}, {
+	"name": "THIS-OBJECT",
+	"parenthases": true,
+	"reserved": true
+}, {
+	"name": "THEN",
+	"reserved": true
+}, {
+	"name": "UNDERLINE",
+	"abbreviation": "UNDERL",
+	"reserved": true
+}, {
+	"name": "UNDO",
+	"reserved": true
+}, {
+	"name": "UNIX",
+	"reserved": true
+}, {
+	"name": "UNLOAD"
+}, {
+	"name": "UNSUBSCRIBE"
+}, {
+	"name": "UP",
+	"reserved": true
+}, {
+	"name": "UPDATE",
+	"reserved": true
+}, {
+	"name": "USE"
+}, {
+	"name": "USING",
+	"reserved": true
+}, {
+	"name": "VALIDATE"
+}, {
+	"name": "VIEW",
+	"reserved": true
+}, {
+	"name": "WAIT-FOR",
+	"reserved": true
+}]

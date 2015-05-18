@@ -1,0 +1,1193 @@
+[{
+	"name": "ABSTRACT"
+}, {
+	"name": "ADD",
+	"reserved": true
+}, {
+	"name": "ADVISE"
+}, {
+	"name": "AGGREGATE"
+}, {
+	"name": "ALERT-BOX"
+}, {
+	"name": "ALL",
+	"reserved": true
+}, {
+	"name": "ALLOW-REPLICATION"
+}, {
+	"name": "ALTER",
+	"reserved": true
+}, {
+	"name": "ANALYZE",
+	"abbreviation": "ANALYZ",
+	"reserved": true
+}, {
+	"name": "AND",
+	"reserved": true
+}, {
+	"name": "ANSI-ONLY"
+}, {
+	"name": "ANY",
+	"reserved": true
+}, {
+	"name": "ANYWHERE"
+}, {
+	"name": "APPEND"
+}, {
+	"name": "APPLICATION"
+}, {
+	"name": "ARRAY-MESSAGE"
+}, {
+	"name": "AS",
+	"reserved": true
+}, {
+	"name": "ASCENDING",
+	"abbreviation": "ASC",
+	"reserved": true
+}, {
+	"name": "ASK-OVERWRITE"
+}, {
+	"name": "ASSEMBLY"
+}, {
+	"name": "AT",
+	"reserved": true
+}, {
+	"name": "AUTHORIZATION",
+	"reserved": true
+}, {
+	"name": "AUTO-ENDKEY"
+}, {
+	"name": "AUTOMATIC"
+}, {
+	"name": "AVERAGE",
+	"abbreviation": "AVE"
+}, {
+	"name": "AVG"
+}, {
+	"name": "BACKWARDS",
+	"abbreviation": "BACKWARD"
+}, {
+	"name": "BASE-KEY"
+}, {
+	"name": "BEFORE-HIDE",
+	"abbreviation": "BEFORE-H",
+	"reserved": true
+}, {
+	"name": "BEGINS",
+	"reserved": true
+}, {
+	"name": "BETWEEN",
+	"reserved": true
+}, {
+	"name": "BIG-ENDIAN",
+	"reserved": true
+}, {
+	"name": "BINARY"
+}, {
+	"name": "BIND"
+}, {
+	"name": "BIND-WHERE"
+}, {
+	"name": "BLOCK-LEVEL",
+	"abbreviation": "BLOCK-LEV"
+}, {
+	"name": "BREAK",
+	"reserved": true
+}, {
+	"name": "BUFFER"
+}, {
+	"name": "BUTTONS",
+	"abbreviation": "BUTTON"
+}, {
+	"name": "BY",
+	"reserved": true
+}, {
+	"name": "BY-POINTER"
+}, {
+	"name": "BY-REFERENCE"
+}, {
+	"name": "BY-VARIANT-POINTER"
+}, {
+	"name": "CACHE-SIZE"
+}, {
+	"name": "CDECL"
+}, {
+	"name": "CHAINED"
+}, {
+	"name": "CHARACTER_LENGTH"
+}, {
+	"name": "CHECK",
+	"reserved": true
+}, {
+	"name": "CLIENT-PRINCIPAL"
+}, {
+	"name": "CLOSE"
+}, {
+	"name": "COL-OF"
+}, {
+	"name": "COLLATE"
+}, {
+	"name": "COLON",
+	"reserved": true
+}, {
+	"name": "COLON-ALIGNED",
+	"abbreviation": "COLON-ALIGN"
+}, {
+	"name": "COLUMN-OF"
+}, {
+	"name": "COLUMNS",
+	"reserved": true
+}, {
+	"name": "COMMAND"
+}, {
+	"name": "COMPARES"
+}, {
+	"name": "CONTAINS"
+}, {
+	"name": "CONTENTS"
+}, {
+	"name": "CONTEXT"
+}, {
+	"name": "CONTEXT-POPUP"
+}, {
+	"name": "CONTROL",
+	"reserved": true
+}, {
+	"name": "CONVERT"
+}, {
+	"name": "COPY-SAX-ATTRIBUTES"
+}, {
+	"name": "COUNT"
+}, {
+	"name": "CREATE-TEST-FILE"
+}, {
+	"name": "CURRENT",
+	"reserved": true
+}, {
+	"name": "CURRENT-ITERATION"
+}, {
+	"name": "CURRENT_DATE",
+	"reserved": true
+}, {
+	"name": "CURSOR",
+	"abbreviation": "CURS",
+	"reserved": true
+}, {
+	"name": "DATA-BIND"
+}, {
+	"name": "DATA-RELATION",
+	"abbreviation": "DATA-REL",
+	"reserved": true
+}, {
+	"name": "DATABASE",
+	"reserved": true
+}, {
+	"name": "DATASET-HANDLE",
+	"reserved": true
+}, {
+	"name": "DDE",
+	"reserved": true
+}, {
+	"name": "DEBUG-LIST",
+	"reserved": true
+}, {
+	"name": "DECLARE",
+	"reserved": true
+}, {
+	"name": "DEFAULT-EXTENSION",
+	"abbreviation": "DEFAULT-EX"
+}, {
+	"name": "DEFAULT-NOXLATE",
+	"abbreviation": "DEFAULT-NOXL",
+	"reserved": true
+}, {
+	"name": "DEFINE",
+	"abbreviation": "DEF",
+	"reserved": true
+}, {
+	"name": "DEFINE-USER-EVENT-MANAGER"
+}, {
+	"name": "DELEGATE"
+}, {
+	"name": "DESC"
+}, {
+	"name": "DESCENDING",
+	"abbreviation": "DESC",
+	"reserved": true
+}, {
+	"name": "DESELECTION"
+}, {
+	"name": "DIR"
+}, {
+	"name": "DISABLED"
+}, {
+	"name": "DISP",
+	"reserved": true
+}, {
+	"name": "DISTINCT",
+	"reserved": true
+}, {
+	"name": "DOUBLE"
+}, {
+	"name": "DROP",
+	"reserved": true
+}, {
+	"name": "DROP-DOWN"
+}, {
+	"name": "DROP-DOWN-LIST"
+}, {
+	"name": "DROP-FILE-NOTIFY"
+}, {
+	"name": "DS-CLOSE-CURSOR"
+}, {
+	"name": "DUMP"
+}, {
+	"name": "EACH",
+	"reserved": true
+}, {
+	"name": "ECHO"
+}, {
+	"name": "EDITING",
+	"reserved": true
+}, {
+	"name": "ELSEIF"
+}, {
+	"name": "ENABLED-FIELDS"
+}, {
+	"name": "END-KEY"
+}, {
+	"name": "END-MOVE"
+}, {
+	"name": "END-RESIZE"
+}, {
+	"name": "END-ROW-RESIZE"
+}, {
+	"name": "ENDIF"
+}, {
+	"name": "ENDKEY"
+}, {
+	"name": "EQ"
+}, {
+	"name": "ESCAPE",
+	"reserved": true
+}, {
+	"name": "EVENT"
+}, {
+	"name": "EVENTS"
+}, {
+	"name": "EXCEPT",
+	"reserved": true
+}, {
+	"name": "EXCLUSIVE-LOCK",
+	"abbreviation": "EXCLUSIVE",
+	"reserved": true
+}, {
+	"name": "EXCLUSIVE-WEB-USER"
+}, {
+	"name": "EXECUTE"
+}, {
+	"name": "EXISTS",
+	"reserved": true
+}, {
+	"name": "EXPLICIT"
+}, {
+	"name": "EXTENDED"
+}, {
+	"name": "EXTERNAL"
+}, {
+	"name": "FALSE",
+	"reserved": true
+}, {
+	"name": "FETCH",
+	"reserved": true
+}, {
+	"name": "FIELD",
+	"reserved": true
+}, {
+	"name": "FIELDS",
+	"abbreviation": "FIELD",
+	"reserved": true
+}, {
+	"name": "FILE"
+}, {
+	"name": "FILE-INFORMATION",
+	"abbreviation": "FILE-INFO",
+	"reserved": true
+}, {
+	"name": "FILENAME"
+}, {
+	"name": "FILTERS"
+}, {
+	"name": "FINAL"
+}, {
+	"name": "FIND-CASE-SENSITIVE",
+	"reserved": true
+}, {
+	"name": "FIND-GLOBAL",
+	"reserved": true
+}, {
+	"name": "FIND-NEXT-OCCURRENCE",
+	"reserved": true
+}, {
+	"name": "FIND-PREV-OCCURRENCE",
+	"reserved": true
+}, {
+	"name": "FIND-SELECT",
+	"reserved": true
+}, {
+	"name": "FIND-WRAP-AROUND",
+	"reserved": true
+}, {
+	"name": "FINDER"
+}, {
+	"name": "FIRST-ASYNCH-REQUEST"
+}, {
+	"name": "FIXED-ONLY"
+}, {
+	"name": "FLOAT"
+}, {
+	"name": "FORCE-FILE"
+}, {
+	"name": "FORM INPUT"
+}, {
+	"name": "FORWARD"
+}, {
+	"name": "FORWARDS",
+	"abbreviation": "FORWARD"
+}, {
+	"name": "FROM",
+	"reserved": true
+}, {
+	"name": "FROM-CHARS",
+	"abbreviation": "FROM-C",
+	"reserved": true
+}, {
+	"name": "FROM-CURRENT",
+	"abbreviation": "FROM-CUR"
+}, {
+	"name": "FROM-PIXELS",
+	"abbreviation": "FROM-P",
+	"reserved": true
+}, {
+	"name": "FUNCTION-CALL-TYPE",
+	"reserved": true
+}, {
+	"name": "GE"
+}, {
+	"name": "GENERATE-MD5"
+}, {
+	"name": "GET-ATTR-CALL-TYPE",
+	"reserved": true
+}, {
+	"name": "GET-ATTRIBUTE-NODE"
+}, {
+	"name": "GET-FILE"
+}, {
+	"name": "GETBYTE",
+	"reserved": true
+}, {
+	"name": "GLOBAL",
+	"reserved": true
+}, {
+	"name": "GLOBAL-DEFINE",
+	"abbreviation": "GLOB"
+}, {
+	"name": "GO-ON",
+	"reserved": true
+}, {
+	"name": "GRANT",
+	"reserved": true
+}, {
+	"name": "GROUP",
+	"reserved": true
+}, {
+	"name": "GT"
+}, {
+	"name": "HAVING",
+	"reserved": true
+}, {
+	"name": "HEADER",
+	"reserved": true
+}, {
+	"name": "HOST-BYTE-ORDER",
+	"reserved": true
+}, {
+	"name": "IMAGE-SIZE"
+}, {
+	"name": "IMAGE-SIZE-CHARS",
+	"abbreviation": "IMAGE-SIZE-C"
+}, {
+	"name": "IMAGE-SIZE-PIXELS",
+	"abbreviation": "IMAGE-SIZE-P"
+}, {
+	"name": "IMPLEMENTS"
+}, {
+	"name": "IN",
+	"reserved": true
+}, {
+	"name": "INDEX-HINT"
+}, {
+	"name": "INDEXED-REPOSITION"
+}, {
+	"name": "INDICATOR",
+	"reserved": true
+}, {
+	"name": "INFORMATION",
+	"abbreviation": "INFO"
+}, {
+	"name": "INHERITS"
+}, {
+	"name": "INITIAL-DIR"
+}, {
+	"name": "INITIAL-FILTER"
+}, {
+	"name": "INPUT-OUTPUT",
+	"abbreviation": "INPUT-O",
+	"reserved": true
+}, {
+	"name": "INSERT-ATTRIBUTE"
+}, {
+	"name": "INTO",
+	"reserved": true
+}, {
+	"name": "IS",
+	"reserved": true
+}, {
+	"name": "ITEM"
+}, {
+	"name": "JOIN",
+	"reserved": true
+}, {
+	"name": "JOIN-BY-SQLDB"
+}, {
+	"name": "KEEP-MESSAGES"
+}, {
+	"name": "KEEP-TAB-ORDER"
+}, {
+	"name": "KEY-CODE",
+	"reserved": true
+}, {
+	"name": "KEY-FUNCTION",
+	"abbreviation": "KEY-FUNC",
+	"reserved": true
+}, {
+	"name": "KEY-LABEL",
+	"reserved": true
+}, {
+	"name": "LABEL-PFCOLOR",
+	"abbreviation": "LABEL-PFC"
+}, {
+	"name": "LANDSCAPE"
+}, {
+	"name": "LAST-ASYNCH-REQUEST"
+}, {
+	"name": "LAST-KEY",
+	"reserved": true
+}, {
+	"name": "LE"
+}, {
+	"name": "LEFT-ALIGNED",
+	"abbreviation": "LEFT-ALIGN"
+}, {
+	"name": "LIKE",
+	"reserved": true
+}, {
+	"name": "LIKE-SEQUENTIAL",
+	"reserved": true
+}, {
+	"name": "LISTING",
+	"abbreviation": "LISTI",
+	"reserved": true
+}, {
+	"name": "LITTLE-ENDIAN",
+	"reserved": true
+}, {
+	"name": "LOOKAHEAD"
+}, {
+	"name": "LT"
+}, {
+	"name": "MACHINE-CLASS",
+	"reserved": true
+}, {
+	"name": "MAP",
+	"reserved": true
+}, {
+	"name": "MARGIN-EXTRA"
+}, {
+	"name": "MARGIN-HEIGHT-CHARS",
+	"abbreviation": "MARGIN-HEIGHT"
+}, {
+	"name": "MARGIN-HEIGHT-PIXELS",
+	"abbreviation": "MARGIN-HEIGHT-P"
+}, {
+	"name": "MARGIN-WIDTH-CHARS",
+	"abbreviation": "MARGIN-WIDTH"
+}, {
+	"name": "MARGIN-WIDTH-PIXELS",
+	"abbreviation": "MARGIN-WIDTH-P"
+}, {
+	"name": "MATCHES"
+}, {
+	"name": "MAX"
+}, {
+	"name": "MAX-HEIGHT"
+}, {
+	"name": "MAX-ROWS"
+}, {
+	"name": "MAX-SIZE"
+}, {
+	"name": "MAX-WIDTH"
+}, {
+	"name": "MAXIMIZE"
+}, {
+	"name": "MENUBAR"
+}, {
+	"name": "MIN"
+}, {
+	"name": "MIN-SIZE"
+}, {
+	"name": "MODULO",
+	"abbreviation": "MOD"
+}, {
+	"name": "MOUSE",
+	"reserved": true
+}, {
+	"name": "MPE",
+	"reserved": true
+}, {
+	"name": "MULTIPLE-KEY"
+}, {
+	"name": "MUST-EXIST"
+}, {
+	"name": "NATIVE"
+}, {
+	"name": "NE"
+}, {
+	"name": "NEW-INSTANCE"
+}, {
+	"name": "NO",
+	"reserved": true
+}, {
+	"name": "NO-APPLY"
+}, {
+	"name": "NO-ARRAY-MESSAGE"
+}, {
+	"name": "NO-ASSIGN"
+}, {
+	"name": "NO-ATTR-LIST",
+	"abbreviation": "NO-ATTR",
+	"reserved": true
+}, {
+	"name": "NO-ATTR-SPACE",
+	"abbreviation": "NO-ATTR",
+	"reserved": true
+}, {
+	"name": "NO-AUTO-VALIDATE"
+}, {
+	"name": "NO-BIND-WHERE"
+}, {
+	"name": "NO-BOX"
+}, {
+	"name": "NO-CONSOLE"
+}, {
+	"name": "NO-CONVERT"
+}, {
+	"name": "NO-CONVERT-3D-COLORS"
+}, {
+	"name": "NO-DEBUG"
+}, {
+	"name": "NO-DRAG"
+}, {
+	"name": "NO-ECHO"
+}, {
+	"name": "NO-ERROR",
+	"reserved": true
+}, {
+	"name": "NO-FILL",
+	"abbreviation": "NO-F",
+	"reserved": true
+}, {
+	"name": "NO-HELP"
+}, {
+	"name": "NO-HIDE",
+	"reserved": true
+}, {
+	"name": "NO-INDEX-HINT"
+}, {
+	"name": "NO-INHERIT-BGCOLOR",
+	"abbreviation": "NO-INHERIT-BGC"
+}, {
+	"name": "NO-INHERIT-FGCOLOR",
+	"abbreviation": "NO-INHERIT-FGC"
+}, {
+	"name": "NO-JOIN-BY-SQLDB"
+}, {
+	"name": "NO-LABELS",
+	"abbreviation": "NO-LABEL",
+	"reserved": true
+}, {
+	"name": "NO-LOBS",
+	"reserved": true
+}, {
+	"name": "NO-LOCK",
+	"reserved": true
+}, {
+	"name": "NO-LOOKAHEAD"
+}, {
+	"name": "NO-MAP",
+	"reserved": true
+}, {
+	"name": "NO-MESSAGE",
+	"abbreviation": "NO-MES",
+	"reserved": true
+}, {
+	"name": "NO-PAUSE",
+	"reserved": true
+}, {
+	"name": "NO-PREFETCH",
+	"abbreviation": "NO-PREFE",
+	"reserved": true
+}, {
+	"name": "NO-ROW-MARKERS"
+}, {
+	"name": "NO-SCROLLBAR-VERTICAL"
+}, {
+	"name": "NO-SEPARATE-CONNECTION"
+}, {
+	"name": "NO-SEPARATORS"
+}, {
+	"name": "NO-TAB-STOP"
+}, {
+	"name": "NO-UNDERLINE",
+	"abbreviation": "NO-UND"
+}, {
+	"name": "NO-UNDO",
+	"reserved": true
+}, {
+	"name": "NO-WAIT",
+	"reserved": true
+}, {
+	"name": "NO-WORD-WRAP"
+}, {
+	"name": "NONE"
+}, {
+	"name": "NOT",
+	"reserved": true
+}, {
+	"name": "NOT-ACTIVE"
+}, {
+	"name": "NULL",
+	"reserved": true
+}, {
+	"name": "NUM-COPIES"
+}, {
+	"name": "NUM-ITERATIONS"
+}, {
+	"name": "NUMERIC"
+}, {
+	"name": "OBJECT"
+}, {
+	"name": "OCTET-LENGTH"
+}, {
+	"name": "OF",
+	"reserved": true
+}, {
+	"name": "OFF",
+	"reserved": true
+}, {
+	"name": "OK"
+}, {
+	"name": "OK-CANCEL"
+}, {
+	"name": "OLD",
+	"reserved": true
+}, {
+	"name": "OPEN",
+	"reserved": true
+}, {
+	"name": "OPTION",
+	"reserved": true
+}, {
+	"name": "OR",
+	"reserved": true
+}, {
+	"name": "ORDERED-JOIN"
+}, {
+	"name": "OS-DIR",
+	"reserved": true
+}, {
+	"name": "OTHERWISE",
+	"reserved": true
+}, {
+	"name": "OUTPUT",
+	"reserved": true
+}, {
+	"name": "OUTPUT-HTTP-HEADER"
+}, {
+	"name": "OVERRIDE"
+}, {
+	"name": "PAGE-WIDTH",
+	"abbreviation": "PAGE-WID"
+}, {
+	"name": "PAGED"
+}, {
+	"name": "PARTIAL-KEY"
+}, {
+	"name": "PASCAL"
+}, {
+	"name": "PIXELS",
+	"reserved": true
+}, {
+	"name": "PORTRAIT"
+}, {
+	"name": "PRECISION"
+}, {
+	"name": "PREPROCESS",
+	"abbreviation": "PREPROC",
+	"reserved": true
+}, {
+	"name": "PRESELECT",
+	"abbreviation": "PRESEL"
+}, {
+	"name": "PREV"
+}, {
+	"name": "PRINTER"
+}, {
+	"name": "PRINTER-SETUP"
+}, {
+	"name": "PRIVATE"
+}, {
+	"name": "PRIVILEGES",
+	"reserved": true
+}, {
+	"name": "PROC-TEXT"
+}, {
+	"name": "PROC-TEXT-BUFFER"
+}, {
+	"name": "PROCEDURE-CALL-TYPE",
+	"reserved": true
+}, {
+	"name": "PROCESS",
+	"reserved": true
+}, {
+	"name": "PROFILER",
+	"reserved": true
+}, {
+	"name": "PROMPT"
+}, {
+	"name": "PROPERTY"
+}, {
+	"name": "PROTECTED"
+}, {
+	"name": "PUBLIC"
+}, {
+	"name": "PUTBYTE",
+	"reserved": true
+}, {
+	"name": "QUERY-TUNING",
+	"reserved": true
+}, {
+	"name": "QUESTION"
+}, {
+	"name": "RCODE-INFORMATION",
+	"abbreviation": "RCODE-INFO",
+	"reserved": true
+}, {
+	"name": "READ-AVAILABLE",
+	"reserved": true
+}, {
+	"name": "READ-EXACT-NUM",
+	"reserved": true
+}, {
+	"name": "REAL"
+}, {
+	"name": "RECORD"
+}, {
+	"name": "REFERENCE-ONLY"
+}, {
+	"name": "REPOSITION-MODE"
+}, {
+	"name": "REQUEST"
+}, {
+	"name": "RETAIN",
+	"reserved": true
+}, {
+	"name": "RETRY-CANCEL"
+}, {
+	"name": "RETURN-TO-START-DIR",
+	"abbreviation": "RETURN-TO-START-DI"
+}, {
+	"name": "RETURNS",
+	"reserved": true
+}, {
+	"name": "REVERSE-FROM"
+}, {
+	"name": "REVERT",
+	"reserved": true
+}, {
+	"name": "REVOKE",
+	"reserved": true
+}, {
+	"name": "RIGHT-ALIGNED",
+	"abbreviation": "RETURN-ALIGN"
+}, {
+	"name": "ROUTINE-LEVEL"
+}, {
+	"name": "ROW-OF"
+}, {
+	"name": "RULE"
+}, {
+	"name": "RUN-PROCEDURE"
+}, {
+	"name": "SAVE-AS"
+}, {
+	"name": "SAX-COMPLETE",
+	"abbreviation": "SAX-COMPLE",
+	"reserved": true
+}, {
+	"name": "SAX-PARSER-ERROR",
+	"reserved": true
+}, {
+	"name": "SAX-READER"
+}, {
+	"name": "SAX-RUNNING",
+	"reserved": true
+}, {
+	"name": "SAX-UNINITIALIZED",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-BEGIN",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-COMPLETE",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-CONTENT",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-ELEMENT",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-ERROR",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-IDLE",
+	"reserved": true
+}, {
+	"name": "SAX-WRITE-TAG",
+	"reserved": true
+}, {
+	"name": "SAX-WRITER"
+}, {
+	"name": "SCHEMA",
+	"reserved": true
+}, {
+	"name": "SCOPED-DEFINE",
+	"abbreviation": "SCOP"
+}, {
+	"name": "SCREEN",
+	"reserved": true
+}, {
+	"name": "SCREEN-IO",
+	"reserved": true
+}, {
+	"name": "SCROLL-DELTA"
+}, {
+	"name": "SCROLL-OFFSET"
+}, {
+	"name": "SCROLLED-ROW-POSITION",
+	"abbreviation": "SCROLLED-ROW-POS"
+}, {
+	"name": "SCROLLING"
+}, {
+	"name": "SEARCH-SELF",
+	"reserved": true
+}, {
+	"name": "SEARCH-TARGER",
+	"reserved": true
+}, {
+	"name": "SECTION"
+}, {
+	"name": "SELECT",
+	"reserved": true
+}, {
+	"name": "SELECTION"
+}, {
+	"name": "SEND"
+}, {
+	"name": "SEND-SQL-STATEMENT",
+	"abbreviation": "SEND-SQL"
+}, {
+	"name": "SEPARATE-CONNECTION"
+}, {
+	"name": "SERIALIZABLE"
+}, {
+	"name": "SET-ATTR-CALL-TYPE",
+	"reserved": true
+}, {
+	"name": "SET-ATTRIBUTE-NODE"
+}, {
+	"name": "SET-CONTENTS"
+}, {
+	"name": "SET-CURRENT-VALUE"
+}, {
+	"name": "SET-EVENT-MANAGER-OPTION"
+}, {
+	"name": "SET-OPTION"
+}, {
+	"name": "SHARE-LOCK",
+	"abbreviation": "SHARE",
+	"reserved": true
+}, {
+	"name": "SHARED",
+	"reserved": true
+}, {
+	"name": "SIGNATURE"
+}, {
+	"name": "SILENT"
+}, {
+	"name": "SIMPLE"
+}, {
+	"name": "SINGLE"
+}, {
+	"name": "SIZE"
+}, {
+	"name": "SIZE-CHARS",
+	"abbreviation": "SIZE-C"
+}, {
+	"name": "SIZE-PIXELS",
+	"abbreviation": "SIZE-P"
+}, {
+	"name": "SKIP",
+	"reserved": true
+}, {
+	"name": "SMALLINT"
+}, {
+	"name": "SOAP-HEADER"
+}, {
+	"name": "SOAP-HEADER-ENTRYREF"
+}, {
+	"name": "SOME",
+	"reserved": true
+}, {
+	"name": "SOURCE"
+}, {
+	"name": "SPACE",
+	"reserved": true
+}, {
+	"name": "SQL"
+}, {
+	"name": "START"
+}, {
+	"name": "START-MOVE"
+}, {
+	"name": "START-RESIZE"
+}, {
+	"name": "START-ROW-RESIZE"
+}, {
+	"name": "STATIC"
+}, {
+	"name": "STDCALL"
+}, {
+	"name": "STOP-AFTER"
+}, {
+	"name": "STORED-PROCEDURE",
+	"abbreviation": "STORED-PROC"
+}, {
+	"name": "STREAM-HANDLE",
+	"reserved": true
+}, {
+	"name": "STREAM-IO",
+	"reserved": true
+}, {
+	"name": "STRING-XREF"
+}, {
+	"name": "SUB-AVERAGE",
+	"abbreviation": "SUB-AVE"
+}, {
+	"name": "SUB-COUNT"
+}, {
+	"name": "SUB-MAXIMUM",
+	"abbreviation": "SUM-MAX"
+}, {
+	"name": "SUB-MINIMUM",
+	"abbreviation": "SUB-MIN"
+}, {
+	"name": "SUB-TOTAL"
+}, {
+	"name": "SUM"
+}, {
+	"name": "SYSTEM-DIALOG",
+	"reserved": true
+}, {
+	"name": "TABLE-SCAN"
+}, {
+	"name": "TARGET"
+}, {
+	"name": "TEMP-TABLE"
+}, {
+	"name": "TERM",
+	"reserved": true
+}, {
+	"name": "TERMINATE"
+}, {
+	"name": "TEXT-CURSOR",
+	"reserved": true
+}, {
+	"name": "TEXT-SEG-GROW"
+}, {
+	"name": "THROUGH"
+}, {
+	"name": "THROW"
+}, {
+	"name": "THRU"
+}, {
+	"name": "TO",
+	"reserved": true
+}, {
+	"name": "TOPIC"
+}, {
+	"name": "TOTAL"
+}, {
+	"name": "TRAILING"
+}, {
+	"name": "TRANS",
+	"reserved": true
+}, {
+	"name": "TRANSACTION-MODE"
+}, {
+	"name": "TRIGGER",
+	"reserved": true
+}, {
+	"name": "TRIGGERS",
+	"reserved": true
+}, {
+	"name": "TRUE",
+	"reserved": true
+}, {
+	"name": "UNBUFFERED",
+	"abbreviation": "UNBUFF"
+}, {
+	"name": "UNDEFINE",
+	"abbreviation": "UNDEF"
+}, {
+	"name": "UNFORMATTED",
+	"abbreviation": "UNFORM",
+	"reserved": true
+}, {
+	"name": "UNION",
+	"reserved": true
+}, {
+	"name": "UNIQUE",
+	"reserved": true
+}, {
+	"name": "UNLESS-HIDDEN"
+}, {
+	"name": "UNSIGNED-LONG"
+}, {
+	"name": "UPDATE-ATTRIBUTE"
+}, {
+	"name": "USE-DICT-EXPS"
+}, {
+	"name": "USE-FILENAME"
+}, {
+	"name": "USE-INDEX",
+	"reserved": true
+}, {
+	"name": "USE-REVVIDEO"
+}, {
+	"name": "USE-TEXT"
+}, {
+	"name": "USE-UNDERLINE"
+}, {
+	"name": "USE-WIDGET-POOL"
+}, {
+	"name": "USER"
+}, {
+	"name": "V6FRAME",
+	"reserved": true
+}, {
+	"name": "VALUE-CHANGED",
+	"reserved": true
+}, {
+	"name": "VALUES",
+	"reserved": true
+}, {
+	"name": "VARIABLE",
+	"abbreviation": "VAR"
+}, {
+	"name": "VERBOSE"
+}, {
+	"name": "VERTICAL",
+	"abbreviation": "VERT"
+}, {
+	"name": "VOID"
+}, {
+	"name": "WAIT"
+}, {
+	"name": "WEBSTREAM"
+}, {
+	"name": "WHEN",
+	"reserved": true
+}, {
+	"name": "WHERE",
+	"reserved": true
+}, {
+	"name": "WHILE",
+	"reserved": true
+}, {
+	"name": "WIDGET"
+}, {
+	"name": "WIDGET-POOL"
+}, {
+	"name": "WIDTH"
+}, {
+	"name": "WINDOW-CLOSE"
+}, {
+	"name": "WINDOW-MAXIMIZED",
+	"abbreviation": "WINDOW-MAXIM",
+	"reserved": true
+}, {
+	"name": "WINDOW-MINIMIZED",
+	"abbreviation": "WINDOW-MINIM",
+	"reserved": true
+}, {
+	"name": "WINDOW-NAME"
+}, {
+	"name": "WINDOW-NORMAL",
+	"reserved": true
+}, {
+	"name": "WITH",
+	"reserved": true
+}, {
+	"name": "WORD-INDEX"
+}, {
+	"name": "WORK-TABLE",
+	"abbreviation": "WORK-TAB",
+	"reserved": true
+}, {
+	"name": "WORKFILE",
+	"reserved": true
+}, {
+	"name": "X-NODEREF"
+}, {
+	"name": "X-OF"
+}, {
+	"name": "XCODE",
+	"reserved": true
+}, {
+	"name": "XREF",
+	"reserved": true
+}, {
+	"name": "XREF-XML",
+	"reserved": true
+}, {
+	"name": "Y-OF"
+}, {
+	"name": "YES",
+	"reserved": true
+}, {
+	"name": "YES-NO"
+}, {
+	"name": "YES-NO-CANCEL"
+}]

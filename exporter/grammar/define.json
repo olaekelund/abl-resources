@@ -1,0 +1,46 @@
+[{
+	"match": "(?i)(\\b(define|def|method|constructor|destructor)\\s+((input|new|global|shared|buffer|override|output|return|input-output|temp-table|dataset-handle|table|dataset|protected|abstract|stream|var|variable|param|parameter|public|private)\\s+)+\\b)",
+	"name": "storage.type.abl"
+}, {
+	"captures": {
+		"1": {
+			"name": "storage.type.abl"
+		},
+		"2": {
+			"name": "variable.procedure.declaration.abl"
+		}
+	},
+	"match": "(?i)\\b(procedure)\\s+([a-z0-9_-]+)\\b"
+}, {
+	"captures": {
+		"2": {
+			"name": "keyword.other.abl"
+		},
+		"4": {
+			"name": "storage.type.abl"
+		},
+		"3": {
+			"name": "entity.name.type.instance.abl"
+		}
+	},
+	"match": "(?i)(\\s+|\\b)(as)\\s+((table|temp-table|buffer|char|character|com-handle|dataset-handle|handle|dataset|logical|file|memptr|datetime-tz|datetime|date|longchar|long|log|rowid|integer|void|event|int|int64|decimal|dec|stream|frame|blob|cblob|class)|([a-zA-Z_$.]+))(?!\\s*\\()\\b"
+}, {
+	"captures": {
+		"1": {
+			"name": "storage.type.abl"
+		},
+		"2": {
+			"name": "variable.function.declaration.abl"
+		},
+		"3": {
+			"name": "storage.type.abl"
+		},
+		"4": {
+			"name": "storage.type.abl"
+		}
+	},
+	"match": "(?i)\\b(function)\\s+([a-z0-9_-]+)\\s+(returns|return) (void|event|blob|table|buffer|dataset|character|char|clob|com-handle|table-handle|widget-handle|handle|datetime-tz|datetime|date|decimal|dec|int64|integer|int|logical|log|longchar|long|file|memptr|raw|recid|rowid)\\b"
+}, {
+	"match": "(?i)\\b(end\\s+(function|procedure|method|class|constructor|destructor))\\b",
+	"name": "storage.type.abl"
+}]

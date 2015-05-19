@@ -22,9 +22,6 @@
 	"abbreviation": "ANALYZ",
 	"reserved": true
 }, {
-	"name": "AND",
-	"reserved": true
-}, {
 	"name": "ANSI-ONLY"
 }, {
 	"name": "ANY",
@@ -71,9 +68,6 @@
 }, {
 	"name": "BEFORE-HIDE",
 	"abbreviation": "BEFORE-H",
-	"reserved": true
-}, {
-	"name": "BEGINS",
 	"reserved": true
 }, {
 	"name": "BETWEEN",
@@ -266,8 +260,6 @@
 }, {
 	"name": "ENDKEY"
 }, {
-	"name": "EQ"
-}, {
 	"name": "ESCAPE",
 	"reserved": true
 }, {
@@ -372,8 +364,6 @@
 	"name": "FUNCTION-CALL-TYPE",
 	"reserved": true
 }, {
-	"name": "GE"
-}, {
 	"name": "GENERATE-MD5"
 }, {
 	"name": "GET-ATTR-CALL-TYPE",
@@ -400,8 +390,6 @@
 }, {
 	"name": "GROUP",
 	"reserved": true
-}, {
-	"name": "GT"
 }, {
 	"name": "HAVING",
 	"reserved": true
@@ -484,8 +472,6 @@
 	"name": "LAST-KEY",
 	"reserved": true
 }, {
-	"name": "LE"
-}, {
 	"name": "LEFT-ALIGNED",
 	"abbreviation": "LEFT-ALIGN"
 }, {
@@ -503,8 +489,6 @@
 	"reserved": true
 }, {
 	"name": "LOOKAHEAD"
-}, {
-	"name": "LT"
 }, {
 	"name": "MACHINE-CLASS",
 	"reserved": true
@@ -526,8 +510,6 @@
 	"name": "MARGIN-WIDTH-PIXELS",
 	"abbreviation": "MARGIN-WIDTH-P"
 }, {
-	"name": "MATCHES"
-}, {
 	"name": "MAX"
 }, {
 	"name": "MAX-HEIGHT"
@@ -546,9 +528,6 @@
 }, {
 	"name": "MIN-SIZE"
 }, {
-	"name": "MODULO",
-	"abbreviation": "MOD"
-}, {
 	"name": "MOUSE",
 	"reserved": true
 }, {
@@ -560,8 +539,6 @@
 	"name": "MUST-EXIST"
 }, {
 	"name": "NATIVE"
-}, {
-	"name": "NE"
 }, {
 	"name": "NEW-INSTANCE"
 }, {
@@ -671,9 +648,6 @@
 }, {
 	"name": "NONE"
 }, {
-	"name": "NOT",
-	"reserved": true
-}, {
 	"name": "NOT-ACTIVE"
 }, {
 	"name": "NULL",
@@ -706,9 +680,6 @@
 	"reserved": true
 }, {
 	"name": "OPTION",
-	"reserved": true
-}, {
-	"name": "OR",
 	"reserved": true
 }, {
 	"name": "ORDERED-JOIN"

@@ -1,75 +1,133 @@
 [{
-	"name": "GATEWAY_INTERFAC"
+	"name": "GATEWAY_INTERFAC",
+	"global_variable": true
 }, {
-	"name": "SERVER_SOFTWAR"
+	"name": "SERVER_SOFTWAR",
+	"global_variable": true
 }, {
-	"name": "SERVER_PROTOCO"
+	"name": "SERVER_PROTOCO",
+	"global_variable": true
 }, {
-	"name": "SERVER_NAM"
+	"name": "SERVER_NAM",
+	"global_variable": true
 }, {
-	"name": "SERVER_POR"
+	"name": "SERVER_POR",
+	"global_variable": true
 }, {
-	"name": "REQUEST_METHO"
+	"name": "REQUEST_METHO",
+	"global_variable": true
 }, {
-	"name": "SCRIPT_NAM"
+	"name": "SCRIPT_NAM",
+	"global_variable": true
 }, {
-	"name": "PATH_INF"
+	"name": "PATH_INF",
+	"global_variable": true
 }, {
-	"name": "PATH_TRANSLATE"
+	"name": "PATH_TRANSLATE",
+	"global_variable": true
 }, {
-	"name": "QUERY_STRIN"
+	"name": "QUERY_STRIN",
+	"global_variable": true
 }, {
-	"name": "REMOTE_ADD"
+	"name": "REMOTE_ADD",
+	"global_variable": true
 }, {
-	"name": "REMOTE_HOS"
+	"name": "REMOTE_HOS",
+	"global_variable": true
 }, {
-	"name": "REMOTE_IDEN"
+	"name": "REMOTE_IDEN",
+	"global_variable": true
 }, {
-	"name": "REMOTE_USE"
+	"name": "REMOTE_USE",
+	"global_variable": true
 }, {
-	"name": "AUTH_TYP"
+	"name": "AUTH_TYP",
+	"global_variable": true
 }, {
-	"name": "CONTENT_TYP"
+	"name": "CONTENT_TYP",
+	"global_variable": true
 }, {
-	"name": "CONTENT_LENGT"
+	"name": "CONTENT_LENGT",
+	"global_variable": true
 }, {
-	"name": "HTTP_ACCEP"
+	"name": "HTTP_ACCEP",
+	"global_variable": true
 }, {
-	"name": "HTTP_COOKI"
+	"name": "HTTP_COOKI",
+	"global_variable": true
 }, {
-	"name": "HTTP_REFERE"
+	"name": "HTTP_REFERE",
+	"global_variable": true
 }, {
-	"name": "HTTP_USER_AGEN"
+	"name": "HTTP_USER_AGEN",
+	"global_variable": true
 }, {
-	"name": "HTTP"
+	"name": "HTTP",
+	"global_variable": true
 }, {
-	"name": "APPPROGRA"
+	"name": "APPPROGRA",
+	"global_variable": true
 }, {
-	"name": "APPUR"
+	"name": "APPUR",
+	"global_variable": true
 }, {
-	"name": "SELFUR"
+	"name": "SELFUR",
+	"global_variable": true
 }, {
-	"name": "HOSTUR"
+	"name": "HOSTUR",
+	"global_variable": true
 }, {
-	"name": "COOKIEPAT"
+	"name": "COOKIEPAT",
+	"global_variable": true
 }, {
-	"name": "ROOTUR"
+	"name": "ROOTUR",
+	"global_variable": true
 }, {
-	"name": "USECONNI"
+	"name": "USECONNI",
+	"global_variable": true
 }, {
-	"name": "COOKIEDOMAI"
+	"name": "COOKIEDOMAI",
+	"global_variable": true
 }, {
-	"name": "SELDELI"
+	"name": "SELDELI",
+	"global_variable": true
 }, {
-	"name": "HTTP-NEWLIN"
+	"name": "HTTP-NEWLIN",
+	"global_variable": true
 }, {
-	"name": "UTC-OFFSE"
+	"name": "UTC-OFFSE",
+	"global_variable": true
 }, {
-	"name": "WEB-UTILITIES-HD"
+	"name": "WEB-UTILITIES-HD",
+	"global_variable": true
 }, {
-	"name": "DEBUG-OPTION"
+	"name": "DEBUG-OPTION",
+	"global_variable": true
 }, {
-	"name": "DEBUGGING-ENABLE"
+	"name": "DEBUGGING-ENABLE",
+	"global_variable": true
 }, {
-	"name": "MISCVARLIST"
+	"name": "MISCVARLIST",
+	"global_variable": true
+}, {
+	"name": "OUT-STREAM",
+	"preprocessor": true
+}, {
+	"name": "OUT-FILE",
+	"preprocessor": true
+}, {
+	"name": "OUT",
+	"preprocessor": true
+}, {
+	"name": "OUT-LONG",
+	"preprocessor": true
+}, {
+	"name": "OUT-FMT",
+	"preprocessor": true
+}, {
+	"name": "DISPLAY",
+	"preprocessor": true
+}, {
+	"name": "END",
+	"preprocessor": true
 }]

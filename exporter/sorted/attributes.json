@@ -492,7 +492,8 @@
 }, {
 	"name": "FULL-WIDTH-PIXELS"
 }, {
-	"name": "FUNCTION"
+	"name": "FUNCTION",
+	"delimiter": true
 }, {
 	"name": "GRAPHIC-EDGE"
 }, {

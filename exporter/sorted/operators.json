@@ -1,46 +1,68 @@
 [{
-	"name": "AND"
+	"name": "AND",
+	"reserved": true
 }, {
-	"name": "NOT"
+	"name": "NOT",
+	"reserved": true
 }, {
-	"name": "OR"
+	"name": "OR",
+	"reserved": true
 }, {
-	"name": "BEGINS"
+	"name": "BEGINS",
+	"reserved": true
 }, {
-	"name": "EQ"
+	"name": "EQ",
+	"reserved": true
 }, {
-	"name": "GE"
+	"name": "GE",
+	"reserved": true
 }, {
-	"name": "GT"
+	"name": "GT",
+	"reserved": true
 }, {
-	"name": "LE"
+	"name": "LE",
+	"reserved": true
 }, {
-	"name": "LT"
+	"name": "LT",
+	"reserved": true
 }, {
-	"name": "MATCHES"
+	"name": "MATCHES",
+	"reserved": true
 }, {
 	"name": "MODULO",
+	"reserved": true,
 	"abbreviation": "MOD"
 }, {
-	"name": "NE"
+	"name": "NE",
+	"reserved": true
 }, {
-	"name": ">="
+	"name": ">=",
+	"ignore": true
 }, {
-	"name": "<="
+	"name": "<=",
+	"ignore": true
 }, {
-	"name": "<>"
+	"name": "<>",
+	"ignore": true
 }, {
-	"name": "="
+	"name": "=",
+	"ignore": true
 }, {
-	"name": "-"
+	"name": "-",
+	"ignore": true
 }, {
-	"name": "+"
+	"name": "+",
+	"ignore": true
 }, {
-	"name": "*"
+	"name": "*",
+	"ignore": true
 }, {
-	"name": "/"
+	"name": "/",
+	"ignore": true
 }, {
-	"name": "<"
+	"name": "<",
+	"ignore": true
 }, {
-	"name": ">"
+	"name": ">",
+	"ignore": true
 }]

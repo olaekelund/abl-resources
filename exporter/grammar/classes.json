@@ -1,0 +1,21 @@
+[{
+	"captures": {
+		"1": {
+			"name": "keyword.other.abl"
+		},
+		"2": {
+			"name": "entity.name.type.instance.abl"
+		}
+	},
+	"match": "(?i)\\b(new)\\s+([a-z0-9_.-]+)\\b"
+}, {
+	"captures": {
+		"1": {
+			"name": "storage.type.abl"
+		},
+		"2": {
+			"name": "variable.class.name.abl"
+		}
+	},
+	"match": "(?i)\\b(using|class)\\s+([a-z0-9._-]+)\\b"
+}]

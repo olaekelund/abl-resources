@@ -1,0 +1,10 @@
+{
+	"scopeName": "source.abl",
+	"name": "OpenEdge ABL",
+	"fileTypes": [
+		"p",
+		"i",
+		"cls"
+	],
+	"patterns": []
+}

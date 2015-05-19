@@ -1,0 +1,7 @@
+[{
+	"match": "(?i)(?<![a-zA-Z0-9_-])(gateway_interface|server_software|server_protocol|server_name|server_port|request_method|script_name|path_info|path_translated|query_string|remote_addr|remote_host|remote_ident|remote_user|auth_type|content_type|content_length|http_accept|http_cookie|http_referer|http_user_agent|https|appprogram|appurl|selfurl|hosturl|cookiepath|rooturl|useconnid|cookiedomain|seldelim|http-newline|utc-offset|web-utilities-hdl|debug-options|debugging-enabled|miscvarlist)(?!-)\\b",
+	"name": "variable.name.global.shared.webspeed.abl"
+}, {
+	"match": "(?i)(?<![a-zA-Z0-9_-])(output-content-type)(?!-)\\b",
+	"name": "keyword.other.webspeed.abl"
+}]

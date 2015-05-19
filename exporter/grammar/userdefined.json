@@ -1,0 +1,18 @@
+[{
+	"match": "(?i)(\\b[a-z][a-z0-9_-]*?\\b\\s*)(?=\\s*\\()\\b",
+	"name": "variable.function.name.abl"
+}, {
+	"captures": {
+		"1": {
+			"name": "entity.other.method.abl"
+		}
+	},
+	"match": "(?i):([a-z0-9_-]+)(?=\\s*\\()\\b"
+}, {
+	"captures": {
+		"1": {
+			"name": "entity.other.attribute.abl"
+		}
+	},
+	"match": "(?i):([a-z0-9_-]+)\\b"
+}]

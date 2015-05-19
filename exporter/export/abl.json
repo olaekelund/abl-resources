@@ -1,0 +1,288 @@
+{
+    "scopeName": "source.abl",
+    "name": "OpenEdge ABL",
+    "fileTypes": [
+        "p",
+        "i",
+        "cls"
+    ],
+    "patterns": [
+        {
+            "match": "(?i)(\\b(define|def|method|constructor|destructor)\\s+((input|new|global|shared|buffer|override|output|return|input-output|temp-table|dataset-handle|table|dataset|protected|abstract|stream|var|variable|param|parameter|public|private)\\s+)+\\b)",
+            "name": "storage.type.abl"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "storage.type.abl"
+                },
+                "2": {
+                    "name": "variable.procedure.declaration.abl"
+                }
+            },
+            "match": "(?i)\\b(procedure)\\s+([a-z0-9_-]+)\\b"
+        },
+        {
+            "captures": {
+                "2": {
+                    "name": "keyword.other.abl"
+                },
+                "3": {
+                    "name": "entity.name.type.instance.abl"
+                },
+                "4": {
+                    "name": "storage.type.abl"
+                }
+            },
+            "match": "(?i)(\\s+|\\b)(as)\\s+((table|temp-table|buffer|char|character|com-handle|dataset-handle|handle|dataset|logical|file|memptr|datetime-tz|datetime|date|longchar|long|log|rowid|integer|void|event|int|int64|decimal|dec|stream|frame|blob|cblob|class)|([a-zA-Z_$.]+))(?!\\s*\\()\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "storage.type.abl"
+                },
+                "2": {
+                    "name": "variable.function.declaration.abl"
+                },
+                "3": {
+                    "name": "storage.type.abl"
+                },
+                "4": {
+                    "name": "storage.type.abl"
+                }
+            },
+            "match": "(?i)\\b(function)\\s+([a-z0-9_-]+)\\s+(returns|return) (void|event|blob|table|buffer|dataset|character|char|clob|com-handle|table-handle|widget-handle|handle|datetime-tz|datetime|date|decimal|dec|int64|integer|int|logical|log|longchar|long|file|memptr|raw|recid|rowid)\\b"
+        },
+        {
+            "match": "(?i)\\b(end\\s+(function|procedure|method|class|constructor|destructor))\\b",
+            "name": "storage.type.abl"
+        },
+        {
+            "name": "storage.type.abl",
+            "match": "(?i)(?<![a-zA-Z0-9_-])(void|temp-table|buffer|socket|table|dataset|event|blob|character|char|clob|com-handle|dataset-handle|table-handle|widget-handle|handle|datetime-tz|datetime|date|decimal|dec|int64|integer|int|logical|log|longchar|long|file|memptr|raw|recid|rowid)((\\s*\\()|(\\s+))(?!-)\\b"
+        },
+        {
+            "name": "storage.type.abl",
+            "match": "(?i)empty(\\s+|\\b) temp-table\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "keyword.other.abl"
+                },
+                "2": {
+                    "name": "entity.name.type.instance.abl"
+                }
+            },
+            "match": "(?i)\\b(new)\\s+([a-z0-9_.-]+)\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "storage.type.abl"
+                },
+                "2": {
+                    "name": "variable.class.name.abl"
+                }
+            },
+            "match": "(?i)\\b(using|class)\\s+([a-z0-9._-]+)\\b"
+        },
+        {
+            "begin": "/\\*",
+            "name": "comment.block.source.abl",
+            "end": "\\*/(?![^/]*?\\*/)"
+        },
+        {
+            "name": "constant.numeric.abl",
+            "match": "(?<!\\w)((0(x|X)[0-9a-fA-F]+)|(\\?)|([0-9]+(\\.[0-9]+)?))"
+        },
+        {
+            "match": "(?i)\\b(\\?|true|false|yes|no(?!-))\\b",
+            "name": "constant.language.abl"
+        },
+        {
+            "match": "(?i)\\b(sax-write-idle|sax-write-begin|sax-write-tag|sax-write-element|sax-write-content|sax-write-complete|sax-write-error|big-endian|little-endian)\\b",
+            "name": "constant.language.attribute.abl"
+        },
+        {
+            "match": "\"\"[a-zA-Z0-9_\\.\\-]+\"\"",
+            "name": "string.double.source.abl"
+        },
+        {
+            "begin": "(\"(?!\"[a-zA-Z]+)|\"\"[a-zA-Z]+)",
+            "patterns": [
+                {
+                    "match": "(~(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)|\"\")",
+                    "name": "constant.character.escape.abl"
+                }
+            ],
+            "name": "string.double.complex.abl",
+            "end": "\"(?!\")"
+        },
+        {
+            "match": "''[a-zA-Z0-9_\\.\\-]+''",
+            "name": "string.single.source.abl"
+        },
+        {
+            "begin": "('(?!'[a-zA-Z]+)|''[a-zA-Z]+)",
+            "patterns": [
+                {
+                    "match": "(~(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)|'')",
+                    "name": "constant.character.escape.abl"
+                }
+            ],
+            "name": "string.single.complex.abl",
+            "end": "'(?!')"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "keyword.other.abl"
+                },
+                "2": {
+                    "name": "variable.procedure.name.file.abl"
+                }
+            },
+            "match": "(?i)\\b(run)\\s+([\\._/-a-z0-9]+\\.p)\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "keyword.other.abl"
+                },
+                "2": {
+                    "name": "variable.procedure.name.abl"
+                }
+            },
+            "match": "(?i)\\b(run)\\s+([\\._/-a-z0-9]+)\\b"
+        },
+        {
+            "match": "(?i)(\\s+|\\b)(and|not|or|begins|eq|ge|gt|le|lt|matches|modulo|mod|ne)(\\s+|\\n+)",
+            "name": "keyword.operator.source.abl"
+        },
+        {
+            "match": "(\\s+)(>=|<=|<>|=|-|\\+|\\*|/|<|>)(\\s+)",
+            "name": "keyword.operator.source.abl"
+        },
+        {
+            "captures": {
+                "2": {
+                    "name": "keyword.name.preprocessor.abl"
+                }
+            },
+            "match": "(?i)(\\{)&(batch-mode|batch-m|batch-mo|batch-mod|batch-|batch|file-name|line-number|line-numbe|opsys|sequence|window-system|window-sys|window-syst|window-syste)(\\})"
+        },
+        {
+            "captures": {
+                "2": {
+                    "name": "constant.name.preprocessor.abl"
+                }
+            },
+            "comment": "this could be simplified",
+            "match": "(?i)(\\{)&([a-zA-Z0-9_-]*)(\\})"
+        },
+        {
+            "captures": {
+                "2": {
+                    "name": "variable.include.preprocessor.abl"
+                }
+            },
+            "match": "(?i)(\\{)([\\a-z0-9_./-]*)(\\})"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "keyword.control.prepocessor.abl"
+                },
+                "2": {
+                    "name": "constant.name.abl"
+                }
+            },
+            "match": "(?i)(?<![a-zA-Z0-9_-])&(global-define|glob|globa|global|global-|global-d|global-de|global-def|global-defi|global-defin)\\s+([a-z0-9_-]+)\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "keyword.control.prepocessor.abl"
+                }
+            },
+            "match": "(?i)(?<![a-zA-Z0-9_-])&(else|elseif|endif|if|message|scoped-define|scoped-d|scoped-de|scoped-def|scoped-defi|scoped-defin|scoped-|scoped|scope|scop|then|undefine|undef|undefi|undefin|webstream|analyze-suspend|analyze-resume)(\\s+|\\n+)"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(abstract|add|advise|aggregate|alert-box|all|allow-replication|alter|analyz|analyz|analyze|ansi-only|any|anywhere|append|application|array-message|as|asc|asc|asce|ascen|ascend|ascendi|ascendin|ascending|ask-overwrite|assembly|at|authorization|auto-endkey|automatic|ave|ave|aver|avera|averag|average|avg|backward|backward|backwards|base-key|before-h|before-h|before-hi|before-hid|before-hide|between|big-endian|binary|bind|bind-where|block-lev|block-lev|block-leve|block-level|break|buffer|button|button|buttons|by|by-pointer|by-reference|by-variant-pointer|cache-size|cdecl|chained|character_length|check|client-principal|close|col-of|collate|colon|colon-align|colon-align|colon-aligne|colon-aligned|column-of|columns|command|compares|contains|contents|context|context-popup|control|convert|copy-sax-attributes|count|create-test-file|current|current-iteration|current_date|curs|curs|curso|cursor|data-bind|data-rel|data-rel|data-rela|data-relat|data-relati|data-relatio|data-relation|database|dataset-handle|dde|debug-list|declare|def|def|default-ex|default-ex|default-ext|default-exte|default-exten|default-extens|default-extensi|default-extensio|default-extension|default-noxl|default-noxl|default-noxla|default-noxlat|default-noxlate|defi|defin|define|define-user-event-manager|delegate|desc|desc|desc|desce|descen|descend|descendi|descendin|descending|deselection|dir|disabled|disp|distinct|double|drop|drop-down|drop-down-list|drop-file-notify|ds-close-cursor|dump|each|echo|editing|elseif|enabled-fields|end-key|end-move|end-resize|end-row-resize|endif|endkey|escape|event|events|except|exclusive|exclusive|exclusive-|exclusive-l|exclusive-lo|exclusive-loc|exclusive-lock|exclusive-web-user|execute|exists|explicit|extended|external|false|fetch|field|field|field|fields|file|file-info|file-info|file-infor|file-inform|file-informa|file-informat|file-informati|file-informatio|file-information|filename|filters|final|find-case-sensitive|find-global|find-next-occurrence|find-prev-occurrence|find-select|find-wrap-around|finder|first-asynch-request|fixed-only|float|force-file|form input|forward|forward|forward|forwards|from|from-c|from-c|from-ch|from-cha|from-char|from-chars|from-cur|from-cur|from-curr|from-curre|from-curren|from-current|from-p|from-p|from-pi|from-pix|from-pixe|from-pixel|from-pixels|function-call-type|generate-md5|get-attr-call-type|get-attribute-node|get-file|getbyte|glob|glob|globa|global|global|global-|global-d|global-de|global-def|global-defi|global-defin|global-define|go-on|grant|group|having|header|host-byte-order|image-size|image-size-c|image-size-c|image-size-ch|image-size-cha|image-size-char|image-size-chars|image-size-p|image-size-p|image-size-pi|image-size-pix|image-size-pixe|image-size-pixel|image-size-pixels|implements|in|index-hint|indexed-reposition|indicator|info|info|infor|inform|informa|informat|informati|informatio|information|inherits|initial-dir|initial-filter|input-o|input-o|input-ou|input-out|input-outp|input-outpu|input-output|insert-attribute|into|is|item|join|join-by-sqldb|keep-messages|keep-tab-order|key-code|key-func|key-func|key-funct|key-functi|key-functio|key-function|key-label|label-pfc|label-pfc|label-pfco|label-pfcol|label-pfcolo|label-pfcolor|landscape|last-asynch-request|last-key|left-align|left-align|left-aligne|left-aligned|like|like-sequential|listi|listi|listin|listing|little-endian|lookahead|machine-class|map|margin-extra|margin-height|margin-height|margin-height-|margin-height-c|margin-height-ch|margin-height-cha|margin-height-char|margin-height-chars|margin-height-p|margin-height-p|margin-height-pi|margin-height-pix|margin-height-pixe|margin-height-pixel|margin-height-pixels|margin-width|margin-width|margin-width-|margin-width-c|margin-width-ch|margin-width-cha|margin-width-char|margin-width-chars|margin-width-p|margin-width-p|margin-width-pi|margin-width-pix|margin-width-pixe|margin-width-pixel|margin-width-pixels|max|max-height|max-rows|max-size|max-width|maximize|menubar|min|min-size|mouse|mpe|multiple-key|must-exist|native|new-instance|no|no-apply|no-array-message|no-assign|no-attr|no-attr|no-attr|no-attr|no-attr-|no-attr-|no-attr-l|no-attr-li|no-attr-lis|no-attr-list|no-attr-s|no-attr-sp|no-attr-spa|no-attr-spac|no-attr-space|no-auto-validate|no-bind-where|no-box|no-console|no-convert|no-convert-3d-colors|no-debug|no-drag|no-echo|no-error|no-f|no-f|no-fi|no-fil|no-fill|no-help|no-hide|no-index-hint|no-inherit-bgc|no-inherit-bgc|no-inherit-bgco|no-inherit-bgcol|no-inherit-bgcolo|no-inherit-bgcolor|no-inherit-fgc|no-inherit-fgc|no-inherit-fgco|no-inherit-fgcol|no-inherit-fgcolo|no-inherit-fgcolor|no-join-by-sqldb|no-label|no-label|no-labels|no-lobs|no-lock|no-lookahead|no-map|no-mes|no-mes|no-mess|no-messa|no-messag|no-message|no-pause|no-prefe|no-prefe|no-prefet|no-prefetc|no-prefetch|no-row-markers|no-scrollbar-vertical|no-separate-connection|no-separators|no-tab-stop|no-und|no-und|no-unde|no-under|no-underl|no-underli|no-underlin|no-underline|no-undo|no-wait|no-word-wrap|none|not-active|null|num-copies|num-iterations|numeric|object|octet-length|of|off|ok|ok-cancel|old|open|option|ordered-join|os-dir|otherwise|output|output-http-header|override|page-wid|page-wid|page-widt|page-width|paged|partial-key|pascal|pixels|portrait|precision|preproc|preproc|preproce|preproces|preprocess|presel|presel|presele|preselec|preselect|prev|printer|printer-setup|private|privileges|proc-text|proc-text-buffer|procedure-call-type|process|profiler|prompt|property|protected|public|putbyte|query-tuning|question|rcode-info|rcode-info|rcode-infor|rcode-inform|rcode-informa|rcode-informat|rcode-informati|rcode-informatio|rcode-information|read-available|read-exact-num|real|record|reference-only|reposition-mode|request|retain|retry-cancel|return-to-start-di|return-to-start-di|return-to-start-dir|returns|reverse-from|revert|revoke|right-aligne|right-aligne|right-aligned|routine-level|row-of|rule|run-procedure|save-as|sax-comple|sax-comple|sax-complet|sax-complete|sax-parser-error|sax-reader|sax-running|sax-uninitialized|sax-write-begin|sax-write-complete|sax-write-content|sax-write-element|sax-write-error|sax-write-idle|sax-write-tag|sax-writer|schema|scop|scop|scope|scoped|scoped-|scoped-d|scoped-de|scoped-def|scoped-defi|scoped-defin|scoped-define|screen|screen-io|scroll-delta|scroll-offset|scrolled-row-pos|scrolled-row-pos|scrolled-row-posi|scrolled-row-posit|scrolled-row-positi|scrolled-row-positio|scrolled-row-position|scrolling|search-self|search-targer|section|select|selection|send|send-sql|send-sql|send-sql-|send-sql-s|send-sql-st|send-sql-sta|send-sql-stat|send-sql-state|send-sql-statem|send-sql-stateme|send-sql-statemen|send-sql-statement|separate-connection|serializable|set-attr-call-type|set-attribute-node|set-contents|set-current-value|set-event-manager-option|set-option|share|share|share-|share-l|share-lo|share-loc|share-lock|shared|signature|silent|simple|single|size|size-c|size-c|size-ch|size-cha|size-char|size-chars|size-p|size-p|size-pi|size-pix|size-pixe|size-pixel|size-pixels|skip|smallint|soap-header|soap-header-entryref|some|source|space|sql|start|start-move|start-resize|start-row-resize|static|stdcall|stop-after|stored-proc|stored-proc|stored-proce|stored-proced|stored-procedu|stored-procedur|stored-procedure|stream-handle|stream-io|string-xref|sub-ave|sub-ave|sub-aver|sub-avera|sub-averag|sub-average|sub-count|sub-max|sub-max|sub-maxi|sub-maxim|sub-maximu|sub-maximum|sub-min|sub-min|sub-mini|sub-minim|sub-minimu|sub-minimum|sub-total|sum|system-dialog|table-scan|target|temp-table|term|terminate|text-cursor|text-seg-grow|through|throw|thru|to|topic|total|trailing|trans|transaction-mode|trigger|triggers|true|unbuff|unbuff|unbuffe|unbuffer|unbuffere|unbuffered|undef|undef|undefi|undefin|undefine|unform|unform|unforma|unformat|unformatt|unformatte|unformatted|union|unique|unless-hidden|unsigned-long|update-attribute|use-dict-exps|use-filename|use-index|use-revvideo|use-text|use-underline|use-widget-pool|user|v6frame|value-changed|values|var|var|vari|varia|variab|variabl|variable|verbose|vert|vert|verti|vertic|vertica|vertical|void|wait|webstream|when|where|while|widget|widget-pool|width|window-close|window-maxim|window-maxim|window-maximi|window-maximiz|window-maximize|window-maximized|window-minim|window-minim|window-minimi|window-minimiz|window-minimize|window-minimized|window-name|window-normal|with|word-index|work-tab|work-tab|work-tabl|work-table|workfile|x-noderef|x-of|xcode|xref|xref-xml|y-of|yes|yes-no|yes-no-cancel)(?!-)\\b",
+            "name": "keyword.other.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(abs|abs|abso|absol|absolu|absolut|absolute|accum|ambig|ambig|ambigu|ambiguo|ambiguou|ambiguous|avail|avail|availa|availab|availabl|available|current-changed|current-lang|current-lang|current-langu|current-langua|current-languag|current-language|data-source-modified|dataservers|dbname|else|entered|error|etime|frame-db|frame-down|frame-field|frame-file|frame-inde|frame-inde|frame-index|frame-name|frame-val|frame-val|frame-valu|frame-value|gateway|gateway|gateways|generate-pbe-salt|generate-random-key|generate-uuid|get-codepages|get-effective-tenant-name|go-pend|go-pend|go-pendi|go-pendin|go-pending|if|input|is-attr|is-attr|is-attr-|is-attr-s|is-attr-sp|is-attr-spa|is-attr-spac|is-attr-space|lastkey|locked|message-lines|new|now|num-ali|num-ali|num-alia|num-alias|num-aliase|num-aliases|num-dbs|opsys|os-drive|os-drive|os-drives|os-error|proc-ha|proc-ha|proc-han|proc-hand|proc-handl|proc-handle|proc-st|proc-st|proc-sta|proc-stat|proc-statu|proc-status|process-architecture|program-name|progress|promsgs|propath|retry|return-val|return-val|return-valu|return-value|sqrt|string|term|term|termi|termin|termina|terminal|then|time|today|transaction)(?!-)\\b",
+            "name": "keyword.function.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(accum|accum|accumu|accumul|accumula|accumulat|accumulate|apply|assign|bell|buffer-compare|buffer-copy|call|case|catch|choose|class|clear|color|compile|connect|copy-lob|create|current-lang|current-lang|current-langu|current-langua|current-languag|current-language|current-value|del|del|dele|delet|delete|destructor|dict|dict|dicti|dictio|diction|dictiona|dictionar|dictionary|disable|discon|discon|disconn|disconne|disconnec|disconnect|disp|disp|displ|displa|display|do|dos|down|dynamic-current-value|dynamic-new|dynamic-property|else|enable|end|entry|export|extent|finally|find|fix-codepage|for|form|frame-val|frame-val|frame-valu|frame-value|function|get|get-key-val|get-key-val|get-key-valu|get-key-value|hide|if|import|insert|interface|leave|length|load|load-picture|message|method|new|next|next-prompt|on|os-append|os-command|os-copy|os-create-dir|os-delete|os-rename|overlay|page|pause|proce|proce|proced|procedu|procedur|procedure|process events|prompt-f|prompt-f|prompt-fo|prompt-for|promsgs|propath|publish|put|put-bits|put-byte|put-bytes|put-double|put-float|put-int64|put-key-val|put-key-val|put-key-valu|put-key-value|put-long|put-short|put-string|put-unsigned-long|put-unsigned-short|quit|raw|raw-transfer|readkey|release|repeat|reposition|return|run|scroll|seek|set|set-byte-order|set-pointer-value|set-size|show-stat|show-stat|show-stats|status|stop|subscribe|substr|substr|substri|substrin|substring|super|system-help|term|term|termi|termin|termina|terminal|then|this-object|underl|underl|underli|underlin|underline|undo|unix|unload|unsubscribe|up|update|use|using|validate|view|wait-for)(?!-)\\b",
+            "name": "keyword.statement.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(active-form|super|this-object)(?!-)\\b",
+            "name": "keyword.systemreference.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(active-window|audit-control|audit-policy|clipboard|codebase-locator|color-table|com-self|compiler|current-window|debugger|default-window|dslog-manager|error-status|file-info|focus|font-table|last-event|log-manager|rcode-info|security-policy|self|session|source-procedure|target-procedure|this-procedure|web-context)(?!-)\\b",
+            "name": "keyword.handle.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(browse|button|combo-box|control-frame|dialog-box|editor|field-group|fill-in|frame|image|literal|menu|menu-item|radio-set|rect|rect|recta|rectan|rectang|rectangl|rectangle|selection-list|shadow-window|slider|sub-|sub-|sub-m|sub-me|sub-men|sub-menu|text|toggle-box|window)(?!-)\\b",
+            "name": "keyword.widget.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(each|field|first|index|init|init|initi|initia|initial|last|namespace-prefix|namespace-uri|no-error|no-message|no-undo|undo|xml-data-type|xml-node-name|xml-node-type)(?!-)\\b",
+            "name": "keyword.option.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(add-interval|alias|asc|audit-enabled|base64-decode|base64-encode|box|buffer-group-id|buffer-group-name|buffer-partition-id|buffer-tenant-id|buffer-tenant-name|can-do|can-find|can-query|can-set|caps|cast|chr|codepage-convert|compare|connected|count-of|current-result-row|current-value|date|datetime|datetime-tz|day|db-remote-host|dbcodepage|dbcollation|dbparam|dbrest|dbrest|dbrestr|dbrestri|dbrestric|dbrestrict|dbrestricti|dbrestrictio|dbrestriction|dbrestrictions|dbtaskid|dbtype|dbvers|dbvers|dbversi|dbversio|dbversion|dec|decimal|decrypt|dynamic-cast|dynamic-current-value|dynamic-function|dynamic-invoke|dynamic-next-value|dynamic-property|encode|encrypt|entry|etime|exp|extent|fill|first|first-of|frame-col|frame-line|frame-row|generate-pbe-key|get-bits|get-byte|get-byte-order|get-bytes|get-class|get-codepage|get-collation|get-collations|get-db-client|get-double|get-effective-tenant-id|get-field|get-float|get-int64|get-long|get-pointer-value|get-short|get-size|get-string|get-unsigned-long|get-unsigned-short|get-value|guid|handle|hex-decode|hex-encode|index|int|int|int|int64|inte|integ|intege|integer|interval|is-codepage-fixed|is-column-codepage|is-db-multi-tenant|is-lead|is-lead|is-lead-|is-lead-b|is-lead-by|is-lead-byt|is-lead-byte|iso-date|kblabel|keycode|keyfunc|keyfunc|keyfunct|keyfuncti|keyfunctio|keyfunction|keylabel|keyword|keyword-all|last|last-of|lc|ldbname|left-trim|length|library|line-count|line-count|line-counte|line-counter|list-events|list-query-attrs|list-set-attrs|list-widgets|log|logical|lookup|max|max|maxi|maxim|maximu|maximum|md5-digest|member|message-digest|min|min|mini|minim|minimu|minimum|month|mtime|next-value|normalize|num-entries|num-results|os-getenv|page-num|page-num|page-numb|page-numbe|page-number|page-size|pdbname|provers|provers|proversi|proversio|proversion|query-off-end|quoter|r-index|random|raw|recid|record-length|rejected|relation-fields|replace|rgb-value|right-trim|round|row-state|rowid|screen-lines|sdbname|search|seek|set-db-client|set-effective-tenant|setuser|setuser|setuseri|setuserid|sha1-digest|ssl-server-name|string|subst|subst|substi|substit|substitu|substitut|substitute|substr|substr|substri|substrin|substring|super|tenant-id|tenant-name|tenant-name-to-id|timezone|to-rowid|trim|trunc|trunc|trunca|truncat|truncate|type-of|unbox|userid|valid-event|valid-handle|valid-object|weekday|widget-handle|year)(?!-)(?=\\s*\\()\\b",
+            "name": "keyword.function.parenthases.abl"
+        },
+        {
+            "captures": {
+                "2": {
+                    "name": "entity.other.attribute.predefined.abl"
+                }
+            },
+            "match": "(?i)(:|\\b)(accelerator|active|actor|adm-data|after-buffer|after-rowid|after-table|allow-column-searching|always-on-top|ambiguous|appl-alert-boxes|appl-context-id|appserver-info|appserver-password|appserver-userid|async-request-count|async-request-handle|asynchronous|attached-pairlist|attr-space|attribute-names|audit-event-context|auto-completion|auto-delete|auto-delete-xml|auto-end-key|auto-go|auto-indent|auto-resize|auto-return|auto-synchronize|auto-validate|auto-zap|available|available-formats|background|base-ade|basic-logging|batch-mode|batch-size|before-buffer|before-rowid|before-table|bgcolor|blank|block-iteration-display|border-bottom-chars|border-bottom-pixels|border-left-chars|border-left-pixels|border-right-chars|border-right-pixels|border-top-chars|border-top-pixels|box|box-selectable|buffer-chars|buffer-field|buffer-group-id|buffer-group-name|buffer-handle|buffer-lines|buffer-name|buffer-partition-id|buffer-tenant-id|buffer-tenant-name|bytes-read|bytes-written|cache|call-name|call-type|can-create|can-delete|can-do-domain-support|can-read|can-write|cancel-button|cancelled|careful-paint|case-sensitive|centered|charset|checked|child-buffer|child-num|class-type|client-connection-id|client-tty|client-type|client-workstation|code|codepage|column|column-bgcolor|column-dcolor|column-fgcolor|column-font|column-label|column-movable|column-pfcolor|column-read-only|column-resizable|column-scrolling|com-handle|complete|config-name|context-help|context-help-file|context-help-id|control-box|convert-3d-colors|cpcase|cpcoll|cpinternal|cplog|cpprint|cprcodein|cprcodeout|cpstream|cpterm|crc-value|current-changed|current-column|current-environment|current-iteration|current-request-info|current-response-info|current-result-row|current-row-modified|current-window|cursor-char|cursor-line|cursor-offset|data-entry-return|data-source|data-source-complete-map|data-source-modified|data-source-rowid|data-type|dataset|date-format|db-context|db-list|db-references|dbname|dcolor|dde-error|dde-id|dde-item|dde-name|dde-topic|deblank|debug-alert|decimals|default|default-buffer-handle|default-button|default-commit|default-string|default-value|delimiter|disable-auto-zap|display-timezone|display-type|domain-description|domain-name|domain-type|down|drag-enabled|drop-target|dynamic|edge-chars|edge-pixels|edit-can-paste|edit-can-undo|empty|encoding|encryption-salt|end-user-prompt|entry-types-list|error|error-column|error-object-detail|error-row|error-stack-trace|error-string|event-group-id|event-procedure|event-procedure-context|event-type|exclusive-id|execution-log|expand|expandable|extent|fgcolor|file-create-date|file-create-time|file-mod-date|file-mod-time|file-name|file-offset|file-size|file-type|fill-mode|fill-where-string|filled|first-async-request|first-buffer|first-child|first-column|first-data-source|first-dataset|first-form|first-object|first-procedure|first-query|first-server|first-server-socket|first-socket|first-tab-item|fit-last-column|flat-button|focused-row|focused-row-selected|font|foreground|foreign-key-hidden|form-input|form-long-input|format|formatted|forward-only|fragment|frame|frame-col|frame-name|frame-row|frame-spacing|frame-x|frame-y|frequency|full-height-chars|full-height-pixels|full-pathname|full-width-chars|full-width-pixels|function|graphic-edge|grid-factor-horizontal|grid-factor-vertical|grid-snap|grid-unit-height-chars|grid-unit-height-pixels|grid-unit-width-chars|grid-unit-width-pixels|grid-visible|group-box|handle|handler|has-lobs|has-records|height-chars|height-pixels|help|hidden|horizontal|html-charset|html-end-of-line|html-end-of-page|html-frame-begin|html-frame-end|html-header-begin|html-header-end|html-title-begin|html-title-end|hwnd|icfparameter|icon|ignore-current-modified|image|image-down|image-insensitive|image-up|immediate-display|in-handle|index|index-information|inherit-bgcolor|inherit-fgcolor|initial|inner-chars|inner-lines|input-value|instantiating-procedure|internal-entries|is-class|is-json|is-multi-tenant|is-open|is-parameter-set|is-partitioned|is-xml|items-per-row|keep-connection-open|keep-frame-z-order|keep-security-cache|key|keys|label|label-bgcolor|label-dcolor|label-fgcolor|label-font|labels|labels-have-colons|languages|large|large-to-small|last-async-request|last-batch|last-child|last-form|last-object|last-procedure|last-server|last-server-socket|last-socket|last-tab-item|length|library|library-calling-convention|line|list-item-pairs|list-items|literal-question|local-host|local-name|local-port|local-version-info|locator-column-number|locator-line-number|locator-public-id|locator-system-id|locator-type|locked|log-entry-types|log-threshold|logfile-name|logging-level|login-expiration-timestamp|login-host|login-state|mandatory|manual-highlight|max-button|max-chars|max-data-guess|max-height-chars|max-height-pixels|max-value|max-width-chars|max-width-pixels|maximum-level|md5-value|menu-bar|menu-key|menu-mouse|merge-by-field|message-area|message-area-font|min-button|min-column-width-chars|min-column-width-pixels|min-height-chars|min-height-pixels|min-schema-marshal|min-value|min-width-chars|min-width-pixels|modified|mouse-pointer|movable|multi-compile|multiple|multitasking-interval|must-understand|name|namespace-prefix|namespace-uri|needs-appserver-prompt|needs-prompt|nested|new|new-row|next-column|next-rowid|next-sibling|next-tab-item|no-current-value|no-empty-space|no-focus|no-schema-marshal|no-validate|node-value|nonamespace-schema-location|num-buffers|num-buttons|num-child-relations|num-children|num-columns|num-dropped-files|num-entries|num-fields|num-formats|num-header-entries|num-items|num-iterations|num-lines|num-locked-columns|num-log-files|num-messages|num-parameters|num-references|num-relations|num-replaced|num-results|num-selected-rows|num-selected-widgets|num-source-buffers|num-tabs|num-to-retain|num-top-buffers|num-visible-columns|numeric-decimal-point|numeric-format|numeric-separator|on-frame-border|ordinal|origin-handle|origin-rowid|overlay|owner|owner-document|page-bottom|page-top|parameter|parent|parent-buffer|parent-fields-after|parent-fields-before|parent-id-relation|parent-relation|parse-status|password-field|pathname|pbe-hash-algorithm|pbe-key-rounds|persistent|persistent-cache-disabled|persistent-procedure|pfcolor|pixels-per-column|pixels-per-row|popup-menu|popup-only|position|prefer-dataset|prepare-string|prepared|prev-column|prev-sibling|prev-tab-item|primary|primary-passphrase|printer-control-handle|printer-hdc|printer-name|printer-port|private-data|procedure-name|procedure-type|progress-source|proxy|proxy-password|proxy-userid|public-id|published-events|qualified-user-id|query|query-off-end|quit|radio-buttons|read-only|recid|record-length|recursive|refreshable|rejected|relation-fields|relations-active|remote|remote-host|remote-port|reposition|request-info|resizable|resize|response-info|restart-row|restart-rowid|retain-shape|return-inserted|return-value|return-value-data-type|return-value-dll-type|role|roles|rounded|row|row-height-chars|row-height-pixels|row-markers|row-resizable|row-state|rowid|save-where-string|schema-change|schema-location|schema-marshal|schema-path|screen-lines|screen-value|scroll-bars|scrollable|scrollbar-horizontal|scrollbar-vertical|seal-timestamp|selectable|selected|selection-end|selection-start|selection-text|sensitive|separator-fgcolor|separators|serialize-hidden|serialize-name|server|server-connection-bound|server-connection-bound-request|server-connection-context|server-connection-id|server-operating-mode|session-end|session-id|show-in-taskbar|side-label-handle|side-labels|single-run|singleton|skip-deleted-record|small-icon|small-title|soap-fault-actor|soap-fault-code|soap-fault-detail|soap-fault-misunderstood-header|soap-fault-node|soap-fault-role|soap-fault-string|soap-fault-subcode|soap-version|sort|sort-ascending|sort-number|ssl-server-name|standalone|startup-parameters|state-detail|status-area|status-area-font|stop|stopped|stream|stretch-to-fit|strict|subtype|super-procedures|suppress-namespace-processing|suppress-warnings|suppress-warnings-list|symmetric-encryption-algorithm|symmetric-encryption-iv|symmetric-encryption-key|symmetric-support|system-alert-boxes|system-id|tab-position|tab-stop|table|table-crc-list|table-handle|table-list|table-number|temp-directory|text-selected|thread-safe|three-d|tic-marks|time-source|timezone|title|title-bgcolor|title-dcolor|title-fgcolor|title-font|toggle-box|tooltip|tooltips|top-nav-query|top-only|tracking-changes|trans-init-procedure|transaction|transparent|type|undo|undo-throw-scope|unique-id|unique-match|url|url-password|url-userid|user-id|v6display|validate-expression|validate-message|validate-xml|validation-enabled|value|version|view-as|view-first-column-on-reopen|virtual-height-chars|virtual-height-pixels|virtual-width-chars|virtual-width-pixels|visible|warning|wc-admin-app|where-string|widget-enter|widget-id|widget-leave|width-chars|width-pixels|window|window-state|window-system|word-wrap|work-area-height-pixels|work-area-width-pixels|work-area-x|work-area-y|write-status|x|x-document|xcode-session-key|xml-data-type|xml-node-name|xml-node-type|xml-schema-path|xml-suppress-namespace-processing|y|year-offset)\\b"
+        },
+        {
+            "captures": {
+                "2": {
+                    "name": "entity.other.method.predefined.abl"
+                }
+            },
+            "match": "(?i)(:|\\b)(accept-changes|accept-row-changes|add-buffer|add-calc-column|add-columns-from|add-events-procedure|add-fields-from|add-first|add-header-entry|add-index-field|add-last|add-like-column|add-like-field|add-like-index|add-new-field|add-new-index|add-parent-id-relation|add-relation|add-schema-location|add-source-buffer|add-super-procedure|append-child|apply-callback|attach-data-source|authentication-failed|begin-event-group|buffer-compare|buffer-copy|buffer-create|buffer-delete|buffer-field|buffer-release|buffer-validate|buffer-value|cancel-break|cancel-requests|cancel-requests-after|clear|clear-appl-context|clear-log|clear-selection|clear-sort-arrows|clone-node|close-log|connect|connect|connect|connect|connected|convert-to-offset|copy-dataset|copy-sax-attributes|copy-temp-table|create-like|create-like-sequential|create-node|create-node-namespace|create-result-list-entry|current-query|debug|declare-namespace|delete|delete-char|delete-current-row|delete-header-entry|delete-line|delete-node|delete-result-list-entry|delete-selected-row|delete-selected-rows|deselect-focused-row|deselect-rows|deselect-selected-row|detach-data-source|disable|disable-connections|disable-dump-triggers|disable-load-triggers|disconnect|display-message|dump-logging-now|edit-clear|edit-copy|edit-cut|edit-paste|edit-undo|empty-dataset|empty-temp-table|enable|enable-connections|enable-events|encrypt-audit-mac-key|end-document|end-element|end-event-group|end-file-drop|entry|export|export-principal|fetch-selected-row|fill|find-by-rowid|find-current|find-first|find-last|find-unique|first-of|get-attribute|get-attribute-node|get-binary-data|get-blue-value|get-browse-column|get-buffer-handle|get-bytes-available|get-callback-proc-context|get-callback-proc-name|get-cgi-list|get-cgi-long-value|get-cgi-value|get-changes|get-child|get-child-relation|get-client|get-column|get-config-value|get-current|get-dataset-buffer|get-document-element|get-dropped-file|get-dynamic|get-error-column|get-error-row|get-file-name|get-file-offset|get-first|get-green-value|get-header-entry|get-index-by-namespace-name|get-index-by-qname|get-iteration|get-iteration|get-last|get-localname-by-index|get-message|get-message-type|get-next|get-node|get-number|get-parent|get-prev|get-printers|get-property|get-qname-by-index|get-red-value|get-relation|get-repositioned-row|get-rgb-value|get-row|get-selected-widget|get-serialized|get-signature|get-socket-option|get-source-buffer|get-tab-item|get-text-height-chars|get-text-height-pixels|get-text-width-chars|get-text-width-pixels|get-top-buffer|get-type-by-index|get-type-by-namespace-name|get-type-by-qname|get-uri-by-index|get-value-by-index|get-value-by-namespace-name|get-value-by-qname|get-wait-state|import-node|import-principal|increment-exclusive-id|index-information|initialize|initialize-document-type|initiate|insert|insert-attribute|insert-backtab|insert-before|insert-file|insert-row|insert-string|insert-tab|invoke|is-row-selected|is-selected|last-of|list-property-names|load|load-domains|load-icon|load-image|load-image-down|load-image-insensitive|load-image-up|load-mouse-pointer|load-small-icon|loadcontrols|lock-registration|log-audit-event|logout|longchar-to-node-value|lookup|mark-new|mark-row-state|memptr-to-node-value|merge-changes|merge-row-changes|move-after-tab-item|move-before-tab-item|move-column|move-to-bottom|move-to-eof|move-to-top|node-value-to-longchar|node-value-to-memptr|normalize|query-close|query-open|query-prepare|raw-transfer|read|read-file|read-json|read-xml|read-xmlschema|refresh|refresh-audit-policy|register-domain|reject-changes|reject-row-changes|remove-attribute|remove-child|remove-events-procedure|remove-super-procedure|replace|replace-child|replace-selection-text|reposition-backward|reposition-forward|reposition-to-row|reposition-to-rowid|reset|save|save-file|save-row-changes|sax-parse|sax-parse-first|sax-parse-next|scroll-to-current-row|scroll-to-item|scroll-to-selected-row|seal|search|select-all|select-focused-row|select-next-row|select-prev-row|select-row|serialize-row|set-actor|set-appl-context|set-attribute|set-attribute-node|set-blue-value|set-break|set-buffers|set-callback|set-callback-procedure|set-client|set-commit|set-connect-procedure|set-dynamic|set-green-value|set-input-source|set-must-understand|set-node|set-numeric-format|set-output-destination|set-parameter|set-property|set-read-response-procedure|set-red-value|set-repositioned-row|set-rgb-value|set-role|set-rollback|set-selection|set-serialized|set-socket-option|set-sort-arrow|set-wait-state|start-document|start-element|stop-parsing|string-value|synchronize|temp-table-prepare|tenant-id|tenant-name|update-attribute|url-decode|url-encode|validate|validate-seal|write|write-cdata|write-characters|write-comment|write-data-element|write-empty-element|write-entity-ref|write-external-dtd|write-fragment|write-json|write-message|write-processing-instruction|write-xml|write-xmlschema)(?!-)(?=\\s*\\()\\b"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(gateway_interface|server_software|server_protocol|server_name|server_port|request_method|script_name|path_info|path_translated|query_string|remote_addr|remote_host|remote_ident|remote_user|auth_type|content_type|content_length|http_accept|http_cookie|http_referer|http_user_agent|https|appprogram|appurl|selfurl|hosturl|cookiepath|rooturl|useconnid|cookiedomain|seldelim|http-newline|utc-offset|web-utilities-hdl|debug-options|debugging-enabled|miscvarlist)(?!-)\\b",
+            "name": "variable.name.global.shared.webspeed.abl"
+        },
+        {
+            "match": "(?i)(?<![a-zA-Z0-9_-])(output-content-type)(?!-)\\b",
+            "name": "keyword.other.webspeed.abl"
+        },
+        {
+            "match": "(?i)(\\b[a-z][a-z0-9_-]*?\\b\\s*)(?=\\s*\\()\\b",
+            "name": "variable.function.name.abl"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "entity.other.method.abl"
+                }
+            },
+            "match": "(?i):([a-z0-9_-]+)(?=\\s*\\()\\b"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "entity.other.attribute.abl"
+                }
+            },
+            "match": "(?i):([a-z0-9_-]+)\\b"
+        }
+    ]
+}

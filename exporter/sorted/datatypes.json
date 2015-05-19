@@ -1,6 +1,12 @@
 [{
+	"name": "BLOB"
+}, {
 	"name": "CHARACTER",
 	"abbreviation": "CHAR"
+}, {
+	"name": "CLOB"
+}, {
+	"name": "COM-HANDLE"
 }, {
 	"name": "DATE"
 }, {
@@ -11,13 +17,26 @@
 	"name": "DECIMAL",
 	"abbreviation": "DEC"
 }, {
+	"name": "HANDLE"
+}, {
 	"name": "INT64"
 }, {
 	"name": "INTEGER",
 	"abbreviation": "INT"
 }, {
-	"name": "LOGICAL",
-	"abbreviation": "LOG"
+	"name": "LOGICAL"
+}, {
+	"name": "LOG"
 }, {
 	"name": "LONGCHAR"
+}, {
+	"name": "MEMPTR"
+}, {
+	"name": "RAW"
+}, {
+	"name": "RECID"
+}, {
+	"name": "ROWID"
+}, {
+	"name": "WIDGET-HANDLE"
 }]

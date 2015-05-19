@@ -1,0 +1,40 @@
+[{
+	"captures": {
+		"2": {
+			"name": "keyword.name.preprocessor.abl"
+		}
+	},
+	"match": "(?i)(\\{)&(batch-mode|batch-m|batch-mo|batch-mod|batch-|batch|file-name|line-number|line-numbe|opsys|sequence|window-system|window-sys|window-syst|window-syste)(\\})"
+}, {
+	"captures": {
+		"2": {
+			"name": "constant.name.preprocessor.abl"
+		}
+	},
+	"comment": "this could be simplified",
+	"match": "(?i)(\\{)&([a-zA-Z0-9_-]*)(\\})"
+}, {
+	"captures": {
+		"2": {
+			"name": "variable.include.preprocessor.abl"
+		}
+	},
+	"match": "(?i)(\\{)([\\a-z0-9_./-]*)(\\})"
+}, {
+	"captures": {
+		"1": {
+			"name": "keyword.control.prepocessor.abl"
+		},
+		"2": {
+			"name": "constant.name.abl"
+		}
+	},
+	"match": "(?i)(?<![a-zA-Z0-9_-])&(global-define|glob|globa|global|global-|global-d|global-de|global-def|global-defi|global-defin)\\s+([a-z0-9_-]+)\\b"
+}, {
+	"captures": {
+		"1": {
+			"name": "keyword.control.prepocessor.abl"
+		}
+	},
+	"match": "(?i)(?<![a-zA-Z0-9_-])&(else|elseif|endif|if|message|scoped-define|scoped-d|scoped-de|scoped-def|scoped-defi|scoped-defin|scoped-|scoped|scope|scop|then|undefine|undef|undefi|undefin|webstream|analyze-suspend|analyze-resume)(\\s+|\\n+)"
+}]

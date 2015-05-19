@@ -1,0 +1,7 @@
+[{
+	"match": "(?i)(\\s+|\\b)(and|not|or|begins|eq|ge|gt|le|lt|matches|modulo|mod|ne)(\\s+|\\n+)",
+	"name": "keyword.operator.source.abl"
+}, {
+	"match": "(\\s+)(>=|<=|<>|=|-|\\+|\\*|/|<|>)(\\s+)",
+	"name": "keyword.operator.source.abl"
+}]

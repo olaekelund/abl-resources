@@ -1,0 +1,7 @@
+[{
+	"name": "storage.type.abl",
+	"match": "(?i)(?<![a-zA-Z0-9_-])(void|temp-table|buffer|socket|table|dataset|event|blob|character|char|clob|com-handle|dataset-handle|table-handle|widget-handle|handle|datetime-tz|datetime|date|decimal|dec|int64|integer|int|logical|log|longchar|long|file|memptr|raw|recid|rowid)((\\s*\\()|(\\s+))(?!-)\\b"
+}, {
+	"name": "storage.type.abl",
+	"match": "(?i)empty(\\s+|\\b) temp-table\\b"
+}]

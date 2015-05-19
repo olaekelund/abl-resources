@@ -1,0 +1,21 @@
+[{
+	"captures": {
+		"1": {
+			"name": "keyword.other.abl"
+		},
+		"2": {
+			"name": "variable.procedure.name.file.abl"
+		}
+	},
+	"match": "(?i)\\b(run)\\s+([\\._/-a-z0-9]+\\.p)\\b"
+}, {
+	"captures": {
+		"1": {
+			"name": "keyword.other.abl"
+		},
+		"2": {
+			"name": "variable.procedure.name.abl"
+		}
+	},
+	"match": "(?i)\\b(run)\\s+([\\._/-a-z0-9]+)\\b"
+}]

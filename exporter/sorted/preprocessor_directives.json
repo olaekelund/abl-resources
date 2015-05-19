@@ -1,30 +1,30 @@
 [{
-	"name": "&GLOBAL-DEFINE",
-	"abbreviation": "&GLOB"
+	"name": "GLOBAL-DEFINE",
+	"abbreviation": "GLOB"
 }, {
-	"name": "&SCOPED-DEFINE",
-	"abbreviation": "&SCOP"
+	"name": "SCOPED-DEFINE",
+	"abbreviation": "SCOP"
 }, {
-	"name": "&ELSEIF"
+	"name": "ELSEIF"
 }, {
-	"name": "&ENDIF"
+	"name": "ENDIF"
 }, {
-	"name": "&UNDEFINE",
-	"abbreviation": "&UNDEF"
+	"name": "UNDEFINE",
+	"abbreviation": "UNDEF"
 }, {
-	"name": "&WEBSTREAM"
+	"name": "WEBSTREAM"
 }, {
-	"name": "&IF"
+	"name": "IF"
 }, {
-	"name": "&ELSE"
+	"name": "ELSE"
 }, {
-	"name": "&MESSAGE"
+	"name": "MESSAGE"
 }, {
-	"name": "&THEN"
+	"name": "THEN"
 }, {
-	"name": "&ANALYZE-SUSPEND"
+	"name": "ANALYZE-SUSPEND"
 }, {
-	"name": "&ANALYZE-RESUME"
+	"name": "ANALYZE-RESUME"
 }, {
 	"name": "DEFINED",
 	"parenthases": true,

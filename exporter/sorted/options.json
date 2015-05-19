@@ -1,0 +1,32 @@
+[{
+	"name": "INITIAL",
+	"abbreviation": "INIT"
+}, {
+	"name": "NO-UNDO"
+}, {
+	"name": "UNDO"
+}, {
+	"name": "INDEX"
+}, {
+	"name": "FIELD"
+}, {
+	"name": "XML-DATA-TYPE"
+}, {
+	"name": "XML-NODE-NAME"
+}, {
+	"name": "XML-NODE-TYPE"
+}, {
+	"name": "NAMESPACE-PREFIX"
+}, {
+	"name": "NAMESPACE-URI"
+}, {
+	"name": "NO-ERROR"
+}, {
+	"name": "NO-MESSAGE"
+}, {
+	"name": "FIRST"
+}, {
+	"name": "LAST"
+}, {
+	"name": "EACH"
+}]

@@ -1,0 +1,75 @@
+[{
+	"name": "GATEWAY_INTERFAC"
+}, {
+	"name": "SERVER_SOFTWAR"
+}, {
+	"name": "SERVER_PROTOCO"
+}, {
+	"name": "SERVER_NAM"
+}, {
+	"name": "SERVER_POR"
+}, {
+	"name": "REQUEST_METHO"
+}, {
+	"name": "SCRIPT_NAM"
+}, {
+	"name": "PATH_INF"
+}, {
+	"name": "PATH_TRANSLATE"
+}, {
+	"name": "QUERY_STRIN"
+}, {
+	"name": "REMOTE_ADD"
+}, {
+	"name": "REMOTE_HOS"
+}, {
+	"name": "REMOTE_IDEN"
+}, {
+	"name": "REMOTE_USE"
+}, {
+	"name": "AUTH_TYP"
+}, {
+	"name": "CONTENT_TYP"
+}, {
+	"name": "CONTENT_LENGT"
+}, {
+	"name": "HTTP_ACCEP"
+}, {
+	"name": "HTTP_COOKI"
+}, {
+	"name": "HTTP_REFERE"
+}, {
+	"name": "HTTP_USER_AGEN"
+}, {
+	"name": "HTTP"
+}, {
+	"name": "APPPROGRA"
+}, {
+	"name": "APPUR"
+}, {
+	"name": "SELFUR"
+}, {
+	"name": "HOSTUR"
+}, {
+	"name": "COOKIEPAT"
+}, {
+	"name": "ROOTUR"
+}, {
+	"name": "USECONNI"
+}, {
+	"name": "COOKIEDOMAI"
+}, {
+	"name": "SELDELI"
+}, {
+	"name": "HTTP-NEWLIN"
+}, {
+	"name": "UTC-OFFSE"
+}, {
+	"name": "WEB-UTILITIES-HD"
+}, {
+	"name": "DEBUG-OPTION"
+}, {
+	"name": "DEBUGGING-ENABLE"
+}, {
+	"name": "MISCVARLIST"
+}]

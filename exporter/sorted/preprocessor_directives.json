@@ -22,6 +22,10 @@
 }, {
 	"name": "&THEN"
 }, {
+	"name": "&ANALYZE-SUSPEND"
+}, {
+	"name": "&ANALYZE-RESUME"
+}, {
 	"name": "DEFINED",
 	"parenthases": true,
 	"function": true

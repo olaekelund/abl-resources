@@ -2,36 +2,49 @@ module.exports.run = function (objects) {
 	var scopes = {
 		'keyword.function': [],
 		'keyword.function.parenthases': [],
-		'keyword.method': [],
-		'keyword.attribute': [],
+		'entity.method': [],
+		'entity.attribute': [],
 		'keyword.statement': [],
 		'keyword.systemreference': [],
 		'keyword.other': [],
 		'keyword.widget': [],
+		'keyword.option': [],
 		'keyword.handle': []
 	};
 
 	function pushOjb(obj, name, type) {
 		var t = {};
-
-		if (type == 'attributes') {
-			scopes['keyword.attribute'].push(name.toLowerCase());
-		} else if (type == 'functions_with_parenthases') {
+		switch (type) {
+		case 'attributes':
+			scopes['entity.attribute'].push(name.toLowerCase());
+			break;
+		case 'methods':
+			scopes['entity.method'].push(name.toLowerCase());
+			break;
+		case 'functions_with_parenthases':
 			scopes['keyword.function.parenthases'].push(name.toLowerCase());
-		} else if (type == 'functions_without_parenthases') {
+			break;
+		case 'functions_without_parenthases':
 			scopes['keyword.function'].push(name.toLowerCase());
-		} else if (type == 'handles') {
+			break;
+		case 'handles':
 			scopes['keyword.handle'].push(name.toLowerCase());
-		} else if (type == 'methods') {
-			scopes['keyword.method'].push(name.toLowerCase());
-		} else if (type == 'statements') {
+			break;
+		case 'statements':
 			scopes['keyword.statement'].push(name.toLowerCase());
-		} else if (type == 'system_references') {
+			break;
+		case 'system_references':
 			scopes['keyword.systemreference'].push(name.toLowerCase());
-		} else if (type == 'widgets') {
+			break;
+		case 'widgets':
 			scopes['keyword.widget'].push(name.toLowerCase());
-		} else if (type == 'unknowns') {
+			break;
+		case 'options':
+			scopes['keyword.option'].push(name.toLowerCase());
+			break;
+		case 'unknowns':
 			scopes['keyword.other'].push(name.toLowerCase());
+			break;
 		}
 	}
 	for (var o in objects) {
@@ -44,6 +57,16 @@ module.exports.run = function (objects) {
 			}
 		}
 	}
+	scopes['entity.attribute'].sort();
+	scopes['entity.method'].sort();
+	scopes['keyword.function.parenthases'].sort();
+	scopes['keyword.function'].sort();
+	scopes['keyword.handle'].sort();
+	scopes['keyword.statement'].sort();
+	scopes['keyword.systemreference'].sort();
+	scopes['keyword.widget'].sort();
+	scopes['keyword.option'].sort();
+	scopes['keyword.other'].sort();
 	var complete_scopes = [{
 		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.other'].join('|') + ')(?!-)\\b',
 		'name': 'keyword.other.abl'
@@ -57,20 +80,31 @@ module.exports.run = function (objects) {
 		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.systemreference'].join('|') + ')(?!-)\\b',
 		'name': 'keyword.systemreference.abl'
 	}, {
-		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.attribute'].join('|') + ')(?!-)\\b',
-		'name': 'keyword.attribute.abl'
-	}, {
 		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.handle'].join('|') + ')(?!-)\\b',
 		'name': 'keyword.handle.abl'
 	}, {
 		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.widget'].join('|') + ')(?!-)\\b',
 		'name': 'keyword.widget.abl'
 	}, {
+		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.option'].join('|') + ')(?!-)\\b',
+		'name': 'keyword.option.abl'
+	}, {
 		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.function.parenthases'].join('|') + ')(?!-)(?=\\s*\\()\\b',
 		'name': 'keyword.function.parenthases.abl'
 	}, {
-		'match': '(?i)(?<![a-zA-Z0-9_-])(' + scopes['keyword.method'].join('|') + ')(?!-)(?=\\s*\\()\\b',
-		'name': 'keyword.method.abl'
+		"captures": {
+			"2": {
+				"name": 'entity.other.attribute.predefined.abl'
+			}
+		},
+		'match': '(?i)(:|\\b)(' + scopes['entity.attribute'].join('|') + ')\\b'
+	}, {
+		"captures": {
+			"2": {
+				'name': 'entity.other.method.predefined.abl'
+			}
+		},
+		'match': '(?i)(:|\\b)(' + scopes['entity.method'].join('|') + ')(?!-)(?=\\s*\\()\\b'
 	}];
 	return complete_scopes;
 };

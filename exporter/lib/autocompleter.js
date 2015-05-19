@@ -6,6 +6,7 @@ module.exports.run = function (objects) {
 		t.text = name;
 		t.snippet = obj.snippet;
 		t.displayText = obj.displayText;
+		t.prefix = obj.prefix;
 		if (type == 'attributes') {
 			t.type = "attribute";
 		} else if (type == 'datatypes') {
@@ -36,6 +37,7 @@ module.exports.run = function (objects) {
 		} else if (type == 'snippets') {
 			t = obj;
 		}
+
 		completions.push(t);
 	}
 	for (var o in objects) {
@@ -48,5 +50,10 @@ module.exports.run = function (objects) {
 			}
 		}
 	}
+	completions.sort(function (a, b) {
+		if (a.text < b.text) return -1;
+		if (a.text > b.text) return 1;
+		return 0;
+	});
 	return completions;
 };

@@ -1,0 +1,46 @@
+[{
+	"name": "AND"
+}, {
+	"name": "NOT"
+}, {
+	"name": "OR"
+}, {
+	"name": "BEGINS"
+}, {
+	"name": "EQ"
+}, {
+	"name": "GE"
+}, {
+	"name": "GT"
+}, {
+	"name": "LE"
+}, {
+	"name": "LT"
+}, {
+	"name": "MATCHES"
+}, {
+	"name": "MODULO",
+	"abbreviation": "MOD"
+}, {
+	"name": "NE"
+}, {
+	"name": ">="
+}, {
+	"name": "<="
+}, {
+	"name": "<>"
+}, {
+	"name": "="
+}, {
+	"name": "-"
+}, {
+	"name": "+"
+}, {
+	"name": "*"
+}, {
+	"name": "/"
+}, {
+	"name": "<"
+}, {
+	"name": ">"
+}]

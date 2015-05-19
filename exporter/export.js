@@ -10,6 +10,7 @@ files.functions_without_parenthases = require('./sorted/functions_without_parent
 files.handles = require('./sorted/handles');
 /*files.ignored = require('./sorted/ignored');*/
 files.methods = require('./sorted/methods');
+files.options = require('./sorted/options');
 files.preprocessor_directives = require('./sorted/preprocessor_directives');
 files.snippets = require('./sorted/snippets');
 files.statements = require('./sorted/statements');

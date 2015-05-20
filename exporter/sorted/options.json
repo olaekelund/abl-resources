@@ -29,4 +29,6 @@
 	"name": "LAST"
 }, {
 	"name": "EACH"
+}, {
+	"name": "SAVE"
 }]

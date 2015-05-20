@@ -7,7 +7,7 @@
 			"name": "variable.procedure.name.file.abl"
 		}
 	},
-	"match": "(?i)\\b(run)\\s+([\\._/-a-z0-9]+\\.p)\\b"
+	"match": "(?i)\\b(run)\\s+([a-zA-Z0-9_\\.\\-/]+\\.(p|r))\\b"
 }, {
 	"captures": {
 		"1": {
@@ -17,5 +17,5 @@
 			"name": "variable.procedure.name.abl"
 		}
 	},
-	"match": "(?i)\\b(run)\\s+([\\._/-a-z0-9]+)\\b"
+	"match": "(?i)\\b(run)\\s+([a-zA-Z0-9_\\.\\-]+)\\b"
 }]

@@ -1,0 +1,6 @@
+{
+    "cmd": "node",
+    "args": ["{PROJECT_PATH}/exporter/export.js"],
+    "sh": true,
+    "cwd": "{PROJECT_PATH}/exporter/"
+}

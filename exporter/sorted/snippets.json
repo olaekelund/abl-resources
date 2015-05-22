@@ -41,7 +41,7 @@
 }, {
 	"text": "DEF DATASET",
 	"displayText": "DEF DATASET",
-	"snippet": "DEF DATASET ${1:dataset-name} FOR ${2:table-name,...}\n\tDATA-RELATION ${3:relation-name} FOR ${3:table-name},${4:table-name} RELATION-FIELDS(${1:field-name}, ${2:field-name}) NESTED\n.",
+	"snippet": "DEF DATASET ${1:dataset-name} FOR ${2:table-name,...}\n\tDATA-RELATION ${3:relation-name} FOR ${4:table-name},${4:table-name} RELATION-FIELDS(${5:field-name}, ${6:field-name}) NESTED\n.",
 	"type": "statement"
 }, {
 	"text": "FUNCTION name...",

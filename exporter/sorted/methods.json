@@ -477,7 +477,8 @@
 }, {
 	"name": "REMOVE-SUPER-PROCEDURE"
 }, {
-	"name": "REPLACE"
+	"name": "REPLACE",
+	"displayText": "REPLACE({new-item-list | new-label, new-value}, {list-item | list-index})"
 }, {
 	"name": "REPLACE-CHILD"
 }, {
@@ -635,7 +636,9 @@
 }, {
 	"name": "WRITE-PROCESSING-INSTRUCTION"
 }, {
-	"name": "WRITE-XML"
+	"name": "WRITE-XML",
+	"snippet": "WRITE-XML('${1:target-type}',${2:target-ref},${3:formatted},'${4:encoding}','${5:schema-location}',${6:write-xmlschema},${7:min-xmlschema},${8:write-before-image},${9:omit-initial-values})",
+	"description": "WRITE-XML ( mode, { file | stream | stream-handle | memptr | handle | longchar }[, formatted [, encoding [, schema-location [, write-xmlschema [, min-xmlschema [, write-before-image [, omit-initial-values ] ] ] ] ] ] ] )"
 }, {
 	"name": "WRITE-XMLSCHEMA"
 }, {

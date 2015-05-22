@@ -148,6 +148,8 @@
 	"name": "ETIME",
 	"reserved": true
 }, {
+	"name": "MTIME"
+}, {
 	"name": "SQRT"
 }, {
 	"name": "STRING"

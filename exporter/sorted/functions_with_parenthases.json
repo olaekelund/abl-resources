@@ -483,6 +483,7 @@
 	"snippet": "RELATION-FIELDS(${1:field-name}, ${2:field-name}) NESTED"
 }, {
 	"name": "REPLACE",
+	"displayText": "REPLACE(source-string, from-string, to-string)",
 	"parenthases": true,
 	"description": "(CHAR) target = REPLACE(source,from,to)",
 	"snippet": "REPLACE(${1:source-string},${2:from-string},${3:to-string})"

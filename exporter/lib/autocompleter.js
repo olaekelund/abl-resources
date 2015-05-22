@@ -10,6 +10,7 @@ module.exports.run = function (objects) {
 		t.text = name;
 		t.snippet = obj.snippet;
 		t.displayText = obj.displayText;
+		t.description = obj.description;
 		t.prefix = obj.prefix;
 		switch (type) {
 		case 'attributes':
@@ -31,7 +32,7 @@ module.exports.run = function (objects) {
 			break;
 		case 'methods':
 			t.type = "method";
-			t.displayText = name + '()';
+			if (!obj.displayText) t.displayText = name + '()';
 			if (!obj.snippet) t.snippet = name + '(${1:value...})';
 			break;
 		case 'preprocessor_directives':
